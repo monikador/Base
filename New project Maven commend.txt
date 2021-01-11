@@ -1,0 +1,1 @@
+mvn archetype:generate -DgroupId=com.udemy.selenium -DartifactId=kurs-selenium -DarchetypeArtifactId=maven-archetype-quickstart -Dinteractivemode=false

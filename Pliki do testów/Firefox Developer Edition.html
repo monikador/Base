@@ -1,0 +1,2129 @@
+<!DOCTYPE html>
+<!-- saved from url=(0045)https://www.mozilla.org/pl/firefox/developer/ -->
+<html class="windows x86 js windows10 x64 is-modern-browser mzp-has-sticky-navigation loaded" lang="pl" dir="ltr" data-latest-firefox="81.0.1" data-esr-versions="78.3.1" data-gtm-container-id="GTM-MW3R8V" data-stub-attribution-rate="1.0" data-sentry-dsn="https://dd94e99168c6431899c1daa5a812d8b6@sentry.prod.mozaws.net/152"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+
+    <script type="text/javascript" async="" src="./Firefox Developer Edition_files/linkid.js.pobrane"></script><script type="text/javascript" async="" src="./Firefox Developer Edition_files/analytics.js.pobrane"></script><script async="" src="./Firefox Developer Edition_files/gtm.js.pobrane"></script><script type="text/javascript" src="./Firefox Developer Edition_files/site.c3a28476932c.js.pobrane" charset="utf-8"></script>
+
+    <!--[if !IE]><!-->
+    
+    <!--<![endif]-->
+
+<!--
+             _.-~-.
+           7''  Q..\
+        _7         (_
+      _7  _/    _q.  /
+    _7 . ___  /VVvv-'_                                            .
+   7/ / /~- \_\\      '-._     .-'                      /       //
+  ./ ( /-~-/||'=.__  '::. '-~'' {             ___   /  //     ./{
+ V   V-~-~| ||   __''_   ':::.   ''~-~.___.-'' _/  // / {_   /  {  /
+  VV/-~-~-|/ \ .'__'. '.    '::                     _ _ _        ''.
+  / /~~~~||VVV/ /  \ )  \        _ __ ___   ___ ___(_) | | __ _   .::'
+ / (~-~-~\\.-' /    \'   \::::. | '_ ` _ \ / _ \_  / | | |/ _` | :::'
+/..\    /..\__/      '     '::: | | | | | | (_) / /| | | | (_| | ::'
+vVVv    vVVv                 ': |_| |_| |_|\___/___|_|_|_|\__,_| ''
+
+Hi there, nice to meet you!
+
+Interested in having a direct impact on hundreds of millions of users? Join
+Mozilla, and become part of a global community that’s helping to build a
+brighter future for the Web.
+
+Visit https://careers.mozilla.org to learn about our current job openings.
+Visit https://www.mozilla.org/contribute for more ways to get involved and
+help support Mozilla.
+-->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+
+    
+    <title>Firefox Developer Edition</title>
+    <meta name="description" content="Firefox Developer Edition to oszałamiająco wydajna przeglądarka, oferująca nowoczesne narzędzia dla programistów i najnowsze funkcje, takie jak obsługa CSS Grid i debugowanie bibliotek">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Mozilla">
+    <meta property="og:locale" content="pl">
+    <meta property="og:url" content="https://www.mozilla.org/pl/firefox/developer/">
+    <meta property="og:image" content="https://www.mozilla.org/media/protocol/img/logos/firefox/browser/developer/og.0e5d59686805.png">
+    <meta property="og:title" content="Firefox Developer Edition">
+    <meta property="og:description" content="Firefox Developer Edition to oszałamiająco wydajna przeglądarka, oferująca nowoczesne narzędzia dla programistów i najnowsze funkcje, takie jak obsługa CSS Grid i debugowanie bibliotek">
+    <meta property="fb:page_id" content="14696440021">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@firefox">
+    <meta name="twitter:domain" content="mozilla.org">
+    <meta name="twitter:app:name:googleplay" content="Firefox">
+    <meta name="twitter:app:id:googleplay" content="org.mozilla.firefox">
+    <meta name="twitter:app:name:iphone" content="Firefox">
+    <meta name="twitter:app:id:iphone" content="989804926">
+    <meta name="twitter:app:name:ipad" content="Firefox">
+    <meta name="twitter:app:id:ipad" content="989804926">
+    <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="https://www.mozilla.org/media/img/favicons/firefox/browser/developer/apple-touch-icon.a01db37f9d0e.png">
+    <link rel="icon" type="image/png" sizes="196x196" href="https://www.mozilla.org/media/img/favicons/firefox/browser/developer/favicon-196x196.b8d17dd1dda2.png">
+    <link rel="shortcut icon" href="https://www.mozilla.org/media/img/favicons/firefox/browser/developer/favicon.fd05b0a74726.ico">
+        <link rel="canonical" href="https://www.mozilla.org/pl/firefox/developer/">
+    <link rel="alternate" hreflang="x-default" href="https://www.mozilla.org/firefox/developer/">
+    <link rel="alternate" hreflang="an" href="https://www.mozilla.org/an/firefox/developer/" title="aragonés">
+        <link rel="alternate" hreflang="ar" href="https://www.mozilla.org/ar/firefox/developer/" title="عربي">
+        <link rel="alternate" hreflang="az" href="https://www.mozilla.org/az/firefox/developer/" title="Azərbaycanca">
+        <link rel="alternate" hreflang="be" href="https://www.mozilla.org/be/firefox/developer/" title="Беларуская">
+        <link rel="alternate" hreflang="bg" href="https://www.mozilla.org/bg/firefox/developer/" title="Български">
+        <link rel="alternate" hreflang="bs" href="https://www.mozilla.org/bs/firefox/developer/" title="Bosanski">
+        <link rel="alternate" hreflang="cs" href="https://www.mozilla.org/cs/firefox/developer/" title="Čeština">
+        <link rel="alternate" hreflang="cy" href="https://www.mozilla.org/cy/firefox/developer/" title="Cymraeg">
+        <link rel="alternate" hreflang="da" href="https://www.mozilla.org/da/firefox/developer/" title="Dansk">
+        <link rel="alternate" hreflang="de" href="https://www.mozilla.org/de/firefox/developer/" title="Deutsch">
+        <link rel="alternate" hreflang="el" href="https://www.mozilla.org/el/firefox/developer/" title="Ελληνικά">
+        <link rel="alternate" hreflang="en-CA" href="https://www.mozilla.org/en-CA/firefox/developer/" title="English (Canadian)">
+        <link rel="alternate" hreflang="en-GB" href="https://www.mozilla.org/en-GB/firefox/developer/" title="English (British)">
+        <link rel="alternate" hreflang="en" href="https://www.mozilla.org/en-US/firefox/developer/" title="English">
+        <link rel="alternate" hreflang="en-US" href="https://www.mozilla.org/en-US/firefox/developer/" title="English (USA)">
+        <link rel="alternate" hreflang="eo" href="https://www.mozilla.org/eo/firefox/developer/" title="Esperanto">
+        <link rel="alternate" hreflang="es-AR" href="https://www.mozilla.org/es-AR/firefox/developer/" title="Español (de Argentina)">
+        <link rel="alternate" hreflang="es-CL" href="https://www.mozilla.org/es-CL/firefox/developer/" title="Español (de Chile)">
+        <link rel="alternate" hreflang="es" href="https://www.mozilla.org/es-ES/firefox/developer/" title="Español">
+        <link rel="alternate" hreflang="es-ES" href="https://www.mozilla.org/es-ES/firefox/developer/" title="Español (de España)">
+        <link rel="alternate" hreflang="es-MX" href="https://www.mozilla.org/es-MX/firefox/developer/" title="Español (de México)">
+        <link rel="alternate" hreflang="fa" href="https://www.mozilla.org/fa/firefox/developer/" title="فارسی">
+        <link rel="alternate" hreflang="fr" href="https://www.mozilla.org/fr/firefox/developer/" title="Français">
+        <link rel="alternate" hreflang="fy" href="https://www.mozilla.org/fy-NL/firefox/developer/" title="Frysk">
+        <link rel="alternate" hreflang="fy-NL" href="https://www.mozilla.org/fy-NL/firefox/developer/" title="Frysk">
+        <link rel="alternate" hreflang="gn" href="https://www.mozilla.org/gn/firefox/developer/" title="Avañe&#39;ẽ">
+        <link rel="alternate" hreflang="gu" href="https://www.mozilla.org/gu-IN/firefox/developer/" title="ગુજરાતી">
+        <link rel="alternate" hreflang="gu-IN" href="https://www.mozilla.org/gu-IN/firefox/developer/" title="ગુજરાતી (ભારત)">
+        <link rel="alternate" hreflang="hi" href="https://www.mozilla.org/hi-IN/firefox/developer/" title="हिन्दी">
+        <link rel="alternate" hreflang="hi-IN" href="https://www.mozilla.org/hi-IN/firefox/developer/" title="हिन्दी (भारत)">
+        <link rel="alternate" hreflang="hr" href="https://www.mozilla.org/hr/firefox/developer/" title="Hrvatski">
+        <link rel="alternate" hreflang="hu" href="https://www.mozilla.org/hu/firefox/developer/" title="magyar">
+        <link rel="alternate" hreflang="hy" href="https://www.mozilla.org/hy-AM/firefox/developer/" title="Հայերեն">
+        <link rel="alternate" hreflang="hy-AM" href="https://www.mozilla.org/hy-AM/firefox/developer/" title="Հայերեն">
+        <link rel="alternate" hreflang="ia" href="https://www.mozilla.org/ia/firefox/developer/" title="Interlingua">
+        <link rel="alternate" hreflang="id" href="https://www.mozilla.org/id/firefox/developer/" title="Bahasa Indonesia">
+        <link rel="alternate" hreflang="it" href="https://www.mozilla.org/it/firefox/developer/" title="Italiano">
+        <link rel="alternate" hreflang="ja" href="https://www.mozilla.org/ja/firefox/developer/" title="日本語">
+        <link rel="alternate" hreflang="ka" href="https://www.mozilla.org/ka/firefox/developer/" title="ქართული">
+        <link rel="alternate" hreflang="ko" href="https://www.mozilla.org/ko/firefox/developer/" title="한국어">
+        <link rel="alternate" hreflang="lt" href="https://www.mozilla.org/lt/firefox/developer/" title="Lietuvių">
+        <link rel="alternate" hreflang="ml" href="https://www.mozilla.org/ml/firefox/developer/" title="മലയാളം">
+        <link rel="alternate" hreflang="mr" href="https://www.mozilla.org/mr/firefox/developer/" title="मराठी">
+        <link rel="alternate" hreflang="ms" href="https://www.mozilla.org/ms/firefox/developer/" title="Melayu">
+        <link rel="alternate" hreflang="nb-NO" href="https://www.mozilla.org/nb-NO/firefox/developer/" title="Norsk bokmål">
+        <link rel="alternate" hreflang="nl" href="https://www.mozilla.org/nl/firefox/developer/" title="Nederlands">
+        <link rel="alternate" hreflang="nn-NO" href="https://www.mozilla.org/nn-NO/firefox/developer/" title="Norsk nynorsk">
+        <link rel="alternate" hreflang="pa" href="https://www.mozilla.org/pa-IN/firefox/developer/" title="ਪੰਜਾਬੀ">
+        <link rel="alternate" hreflang="pa-IN" href="https://www.mozilla.org/pa-IN/firefox/developer/" title="ਪੰਜਾਬੀ (ਭਾਰਤ)">
+        <link rel="alternate" hreflang="pl" href="https://www.mozilla.org/pl/firefox/developer/" title="Polski">
+        <link rel="alternate" hreflang="pt-BR" href="https://www.mozilla.org/pt-BR/firefox/developer/" title="Português (do Brasil)">
+        <link rel="alternate" hreflang="pt" href="https://www.mozilla.org/pt-PT/firefox/developer/" title="Português">
+        <link rel="alternate" hreflang="pt-PT" href="https://www.mozilla.org/pt-PT/firefox/developer/" title="Português (Europeu)">
+        <link rel="alternate" hreflang="rm" href="https://www.mozilla.org/rm/firefox/developer/" title="rumantsch">
+        <link rel="alternate" hreflang="ro" href="https://www.mozilla.org/ro/firefox/developer/" title="Română">
+        <link rel="alternate" hreflang="ru" href="https://www.mozilla.org/ru/firefox/developer/" title="Русский">
+        <link rel="alternate" hreflang="sk" href="https://www.mozilla.org/sk/firefox/developer/" title="slovenčina">
+        <link rel="alternate" hreflang="sl" href="https://www.mozilla.org/sl/firefox/developer/" title="Slovenščina">
+        <link rel="alternate" hreflang="sq" href="https://www.mozilla.org/sq/firefox/developer/" title="Shqip">
+        <link rel="alternate" hreflang="sr" href="https://www.mozilla.org/sr/firefox/developer/" title="Српски">
+        <link rel="alternate" hreflang="sv" href="https://www.mozilla.org/sv-SE/firefox/developer/" title="Svenska">
+        <link rel="alternate" hreflang="sv-SE" href="https://www.mozilla.org/sv-SE/firefox/developer/" title="Svenska">
+        <link rel="alternate" hreflang="ta" href="https://www.mozilla.org/ta/firefox/developer/" title="தமிழ்">
+        <link rel="alternate" hreflang="th" href="https://www.mozilla.org/th/firefox/developer/" title="ไทย">
+        <link rel="alternate" hreflang="tr" href="https://www.mozilla.org/tr/firefox/developer/" title="Türkçe">
+        <link rel="alternate" hreflang="uk" href="https://www.mozilla.org/uk/firefox/developer/" title="Українська">
+        <link rel="alternate" hreflang="vi" href="https://www.mozilla.org/vi/firefox/developer/" title="Tiếng Việt">
+        <link rel="alternate" hreflang="zh" href="https://www.mozilla.org/zh-CN/firefox/developer/" title="中文">
+          <link rel="alternate" hreflang="zh-CN" href="https://www.mozilla.org/zh-CN/firefox/developer/" title="中文 (简体)">
+          <link rel="alternate" hreflang="zh-TW" href="https://www.mozilla.org/zh-TW/firefox/developer/" title="正體中文 (繁體)">
+        
+    
+
+    
+
+    <!--[if lt IE 9]>
+      
+      <script src="https://www.mozilla.org/media/js/libs/html5shiv.98460818858d.js"></script>
+    <![endif]-->
+
+    <!--[if IE]>
+      
+      
+      <link href="https://www.mozilla.org/media/css/BUNDLES/common-old-ie.17e3bffa5548.css" rel="stylesheet" type="text/css" />
+      
+    <![endif]-->
+
+    <!--[if !IE]><!-->
+    
+    
+      <link href="./Firefox Developer Edition_files/common.1037ac8485c6.css" rel="stylesheet" type="text/css">
+    
+
+    
+    
+  <link href="./Firefox Developer Edition_files/firefox_developer.e47de8e2d81f.css" rel="stylesheet" type="text/css">
+
+    <!--<![endif]-->
+
+    
+      
+    
+
+    
+    
+      <!--
+Read more about our custom configuration and use of Google Analytics here:
+https://bugzilla.mozilla.org/show_bug.cgi?id=1122305#c8
+-->
+
+<!-- Google Tag Manager -->
+<!-- Customized for Mozilla.org-->
+<!-- Region Container: NONE -->
+<!-- Rollup Container: System Filtered -->
+<!-- Site Container: NONE -->
+
+
+  <script type="text/javascript" src="./Firefox Developer Edition_files/gtm-snippet.9f9cf2026c5f.js.pobrane" charset="utf-8"></script>
+
+<!-- End Google Tag Manager -->
+    
+  </head>
+
+  <body id="firefox-developer" class="html-ltr firefox-developer mzp-t-firefox t-home" data-global-nav-current-link="firefox">
+    <div id="strings" data-global-close="Zamknij" data-global-next="Dalej" data-global-previous="Cofnij"></div>
+
+    
+  
+    <div class="mzp-c-navigation top-header-navigation mzp-t-firefox mzp-is-sticky nav-button-is-ready">
+  <div class="mzp-c-navigation-l-content">
+    <div class="mzp-c-navigation-container">
+      <button class="mzp-c-navigation-menu-button" type="button" aria-controls="mzp-c-navigation-items">Menu</button>
+      <div class="mzp-c-navigation-logo">
+        <a href="https://www.mozilla.org/pl/firefox/" data-link-name="firefox home icon" data-link-type="nav">
+        
+        
+          Firefox
+        
+        </a>
+      </div>
+
+      <div class="mzp-c-navigation-items" id="mzp-c-navigation-items" aria-expanded="false">
+        
+  <div class="mzp-c-navigation-download">
+    
+    
+    <div class="c-navigation-fxa-cta-container">
+      <a href="https://accounts.firefox.com/signup?entrypoint=mozilla.org-globalnav&amp;form_type=button&amp;utm_source=mozilla.org-globalnav&amp;utm_medium=referral&amp;utm_campaign=navigation&amp;utm_content=get-firefox-account" data-action="https://accounts.firefox.com/" class="js-fxa-cta-link mzp-c-button mzp-t-product mzp-t-secondary mzp-t-md c-navigation-fxa-cta" data-cta-text="Get a Firefox Account" data-cta-type="fxa-sync" data-cta-position="navigation" data-alt-href="/pl/firefox/accounts/" data-mozillaonline-link="https://accounts.firefox.com.cn/signup?entrypoint=mozilla.org-globalnav&amp;form_type=button&amp;utm_source=mozilla.org-globalnav&amp;utm_medium=referral&amp;utm_campaign=navigation&amp;utm_content=get-firefox-account" data-mozillaonline-action="https://accounts.firefox.com.cn/">Utwórz konto Firefoksa</a>
+      <p class="c-navigation-fxa-cta-small-link"><a data-link-type="nav" data-link-name="Check out the Benefits" href="https://www.mozilla.org/pl/firefox/accounts/">Przeczytaj o&nbsp;korzyściach</a></p>
+    </div>
+    
+  </div>
+
+        <div class="mzp-c-navigation-menu">
+          <nav class="mzp-c-menu mzp-is-enhanced">
+            <ul class="mzp-c-menu-category-list">
+              
+
+<li class="mzp-c-menu-category mzp-has-drop-down mzp-js-expandable">
+  <a class="mzp-c-menu-title" href="https://www.mozilla.org/pl/firefox/browsers/" aria-haspopup="true" aria-controls="mzp-c-menu-panel-browsers" aria-expanded="false">Przeglądarki</a>
+  <div class="mzp-c-menu-panel mzp-has-card" id="mzp-c-menu-panel-browsers">
+    <div class="mzp-c-menu-panel-container">
+      <button class="mzp-c-menu-button-close" type="button" aria-controls="mzp-c-menu-panel-browsers">Zamknij menu przeglądarek</button>
+      <div class="mzp-c-menu-panel-content">
+        <ul>
+          <li>
+            <section class="mzp-c-menu-item mzp-has-icon">
+              <a class="mzp-c-menu-item-link" href="https://www.mozilla.org/pl/firefox/new/" data-link-name="Firefox Desktop" data-link-type="nav" data-link-position="topnav" data-link-group="browsers">
+                <!--[if gt IE 8]><!--><svg class="mzp-c-menu-item-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="20" viewBox="0 0 24 20"><g fill="none" fill-rule="evenodd" stroke="#000" stroke-linecap="round" transform="translate(1.77 1)"><rect width="18" height="12" x="1.225" stroke-linejoin="round" stroke-width="2" rx="2"></rect><path stroke-linejoin="round" stroke-width="2" d="M2.66666667,12 L17.7836298,12 C18.6444906,12 19.4087683,12.5508602 19.6809964,13.3675445 L20.347663,15.3675445 C20.6969586,16.4154311 20.1306386,17.5480711 19.082752,17.8973666 C18.878819,17.9653442 18.6652606,18 18.4502965,18 L2,18 C0.8954305,18 -3.80449182e-13,17.1045695 -3.80584453e-13,16 C-3.80610778e-13,15.7850358 0.034655758,15.5714774 0.102633404,15.3675445 L0.769300071,13.3675445 C1.04152816,12.5508602 1.80580585,12 2.66666667,12 Z"></path><path stroke-width="2" d="M6.22514823,15 L14.2251482,15"></path></g></svg><!--<![endif]-->
+                <h4 class="mzp-c-menu-item-title">Przeglądarka Firefox na komputery</h4>
+                <p class="mzp-c-menu-item-desc">Pobierz przeglądarkę, która z&nbsp;automatu szanuje Twoją prywatność. W&nbsp;systemach Windows, macOS lub Linux.</p>
+              </a>
+              <ul class="mzp-c-menu-item-list">
+                <li><a href="https://www.mozilla.org/pl/firefox/new/" data-link-name="Download" data-link-type="nav" data-link-position="subnav" data-link-group="browsers">Pobierz</a></li>
+                <li><a href="https://www.mozilla.org/pl/firefox/features/" data-link-name="Desktop Features" data-link-type="nav" data-link-position="subnav" data-link-group="browsers">Możliwości</a></li>
+                <li><a href="https://www.mozilla.org/pl/firefox/notes/" data-link-name="Desktop Release Notes" data-link-type="nav" data-link-position="subnav" data-link-group="browsers">Informacje o&nbsp;wydaniu</a></li>
+                <li><a href="https://addons.mozilla.org/firefox/?utm_source=www.mozilla.org&amp;utm_medium=referral&amp;utm_campaign=nav&amp;utm_content=browsers" rel="external noopener" data-link-name="Extensions" data-link-type="nav" data-link-position="subnav" data-link-group="browsers">Rozszerzenia</a></li>
+                <li><a href="https://support.mozilla.org/products/firefox/?utm_source=www.mozilla.org&amp;utm_medium=referral&amp;utm_campaign=nav&amp;utm_content=browsers" rel="external noopener" data-link-name="Support" data-link-type="nav" data-link-position="subnav" data-link-group="browsers">Pomoc</a></li>
+                <li><a href="https://www.mozilla.org/pl/privacy/firefox/" data-link-name="Desktop Privacy" data-link-type="nav" data-link-position="subnav" data-link-group="browsers">Prywatność</a></li>
+              </ul>
+            </section>
+          </li>
+          <li>
+            <section class="mzp-c-menu-item mzp-has-icon">
+              <a class="mzp-c-menu-item-link" href="https://www.mozilla.org/pl/firefox/mobile/" data-link-name="Firefox Mobile" data-link-type="nav" data-link-position="topnav" data-link-group="browsers">
+                <!--[if gt IE 8]><!--><svg class="mzp-c-menu-item-icon" xmlns="http://www.w3.org/2000/svg" width="17" height="24" viewBox="0 0 17 24"><g fill="none" fill-rule="evenodd" stroke="#000" transform="translate(1.5 1)"><rect width="14" height="22" stroke-width="2" rx="2"></rect><path stroke-width="2" d="M0 4L14 4M0 18L14 18"></path></g></svg><!--<![endif]-->
+                <h4 class="mzp-c-menu-item-title">Przeglądarka Firefox na telefon</h4>
+                <p class="mzp-c-menu-item-desc">Miej szybkość, prywatność i&nbsp;spokój ducha zawsze przy sobie. Na Androida i&nbsp;iOS.</p>
+              </a>
+              <ul class="mzp-c-menu-item-list">
+                <li><a href="https://itunes.apple.com/pl/app/firefox-private-safe-browser/id989804926" rel="external noopener" data-link-name="Download for iOS" data-link-type="nav" data-link-position="subnav" data-link-group="browsers">Pobierz na iOS</a></li>
+                <li><a href="https://play.google.com/store/apps/details?id=org.mozilla.firefox&amp;referrer=utm_source%3Dmozilla%26utm_medium%3DReferral%26utm_campaign%3Dmozilla-org" rel="external noopener" data-link-name="Download for Android" data-link-type="nav" data-link-position="subnav" data-link-group="browsers">Pobierz na Androida</a></li>
+                <li><a href="https://support.mozilla.org/products/ios/?utm_source=www.mozilla.org&amp;utm_medium=referral&amp;utm_campaign=nav&amp;utm_content=browsers" rel="external noopener" data-link-name="iOS Support" data-link-type="nav" data-link-position="subnav" data-link-group="browsers">Wsparcie dla iOS</a></li>
+                <li><a href="https://support.mozilla.org/products/mobile/?utm_source=www.mozilla.org&amp;utm_medium=referral&amp;utm_campaign=nav&amp;utm_content=browsers" rel="external noopener" data-link-name="Android Support" data-link-type="nav" data-link-position="subnav" data-link-group="browsers">Wsparcie dla Androida</a></li>
+                <li><a href="https://www.mozilla.org/pl/privacy/firefox/" data-link-name="Mobile Privacy" data-link-type="nav" data-link-position="subnav" data-link-group="browsers">Prywatność</a></li>
+              </ul>
+            </section>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <section class="mzp-c-menu-item mzp-has-icon">
+              <a class="mzp-c-menu-item-link" href="https://www.mozilla.org/pl/firefox/enterprise/" data-link-name="Firefox for Enterprise" data-link-type="nav" data-link-position="topnav" data-link-group="browsers">
+                <!--[if gt IE 8]><!--><svg class="mzp-c-menu-item-icon" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M20.289 15.5a1 1 0 0 1 1.842.78A11 11 0 1 1 7.6 1.912a1 1 0 0 1 .8 1.834A9 9 0 1 0 20.289 15.5zM23 12a1 1 0 0 1-1 1H12a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1 11 11 0 0 1 11 11zm-4.636-6.364A9 9 0 0 0 13 3.056V11h7.944a9 9 0 0 0-2.58-5.364z" fill="#000" fill-rule="nonzero"></path></svg><!--<![endif]-->
+                <h4 class="mzp-c-menu-item-title">Przeglądarka Firefox dla firm</h4>
+                <p class="mzp-c-menu-item-desc">Uzyskaj niezrównaną ochronę danych w&nbsp;cyklu wydawniczym, który pasuje do Twojej organizacji.</p>
+              </a>
+            </section>
+          </li>
+          <li>
+            <section class="mzp-c-menu-item mzp-has-icon">
+              <a class="mzp-c-menu-item-link" href="https://mixedreality.mozilla.org/?utm_source=www.mozilla.org&amp;utm_medium=referral&amp;utm_campaign=nav&amp;utm_content=browsers" rel="external noopener" data-link-name="Firefox Reality" data-link-type="nav" data-link-position="topnav" data-link-group="browsers">
+                <!--[if gt IE 8]><!--><svg class="mzp-c-menu-item-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="20" viewBox="0 0 24 20"><g fill="none" fill-rule="evenodd" stroke="#000" stroke-linecap="round" transform="translate(1 1)"><path stroke-linejoin="round" stroke-width="2" d="M8,18 C4,18 0,16 0,14 L0,4 C0,5.62640489 4,8 8,8 L8,18 Z"></path><path stroke-linejoin="round" stroke-width="2" d="M22,18 C18,18 14,16 14,14 L14,4 C14,5.62640489 18,8 22,8 L22,18 Z" transform="matrix(-1 0 0 1 36 0)"></path><path stroke-width="2" d="M0,4 C0,2 5,0 11,0 C17,0 22,2 22,4 L22,14 C22,12 17,11 11,11 C5,11 0,12 0,14 L0,4 Z"></path></g></svg><!--<![endif]-->
+                <h4 class="mzp-c-menu-item-title">Firefox Reality</h4>
+                <p class="mzp-c-menu-item-desc">Załóż okulary i&nbsp;zanurz się w&nbsp;sieci za pomocą przeglądarki Firefox dla rzeczywistości wirtualnej.</p>
+              </a>
+              <ul class="mzp-c-menu-item-list">
+                <li><a href="https://support.mozilla.org/products/firefox-reality/get-started?utm_source=www.mozilla.org&amp;utm_medium=referral&amp;utm_campaign=nav&amp;utm_content=browsers" rel="external noopener" data-link-name="Reality Support" data-link-type="nav" data-link-position="subnav" data-link-group="browsers">Pomoc</a></li>
+                <li><a href="https://www.mozilla.org/pl/privacy/firefox-reality/" data-link-name="Reality Privacy" data-link-type="nav" data-link-position="subnav" data-link-group="browsers">Prywatność</a></li>
+              </ul>
+            </section>
+          </li>
+          <li>
+            <section class="mzp-c-menu-item mzp-has-icon">
+              <a class="mzp-c-menu-item-link" href="https://www.amazon.com/Mozilla-Firefox-for-Fire-TV/dp/B078B5YMPD" data-link-name="Firefox for Fire TV" data-link-type="nav" data-link-position="topnav" data-link-group="firefox">
+                <!--[if gt IE 8]><!--><svg class="mzp-c-menu-item-icon" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M3 3h18a3 3 0 0 1 3 3v12a3 3 0 0 1-3 3H3a3 3 0 0 1-3-3V6a3 3 0 0 1 3-3zm0 2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h18a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1H3zm13.496 6.132a1 1 0 0 1 0 1.736l-7 4A1 1 0 0 1 8 16V8a1 1 0 0 1 1.496-.868l7 4zM10 9.723v4.554L13.984 12 10 9.723z" fill="#000" fill-rule="nonzero"></path></svg><!--<![endif]-->
+                <h4 class="mzp-c-menu-item-title">Firefox dla Fire&nbsp;TV</h4>
+                <p class="mzp-c-menu-item-desc">Oglądaj filmy i&nbsp;przeglądaj Internet na telewizorze Amazon Fire&nbsp;TV.</p>
+              </a>
+            </section>
+          </li>
+        </ul>
+      </div>
+      <div class="mzp-c-menu-panel-card">
+        <section class="mzp-c-card mzp-c-card-extra-small mzp-has-aspect-3-2">
+          <a class="mzp-c-card-block-link" href="https://www.mozilla.org/pl/firefox/browsers/" data-link-name="All Browsers" data-link-type="nav" data-link-position="card" data-link-group="browsers">
+            <div class="mzp-c-card-media-wrapper">
+              <img class="mzp-c-card-image" src="./Firefox Developer Edition_files/placeholder.71a50dbba44c.png" data-src="https://www.mozilla.org/media/img/nav/cards/browsers.31d180e9831d.jpg" data-srcset="https://www.mozilla.org/media/img/nav/cards/browsers-high-res.5fa756c8aacf.jpg" alt="">
+              <noscript>
+                <img class="mzp-c-card-image" src="https://www.mozilla.org/media/img/nav/cards/browsers.31d180e9831d.jpg" alt="">
+              </noscript>
+            </div>
+            <div class="mzp-c-card-content">
+            <h2 class="mzp-c-card-title">Tworzony z&nbsp;szacunkiem</h2>
+            <p class="mzp-c-card-desc">Przeglądarki Firefox stawiają Twoją prywatność na pierwszym miejscu — od zawsze i&nbsp;na zawsze.</p>
+            </div>
+          </a>
+        </section>
+      </div>
+    </div><!-- close .mzp-c-menu-panel-container -->
+  </div><!-- close .mzp-c-menu-panel -->
+</li><!-- close browsers -->
+              
+
+<li class="mzp-c-menu-category mzp-has-drop-down mzp-js-expandable">
+  <a class="mzp-c-menu-title" href="https://www.mozilla.org/pl/firefox/products/" aria-haspopup="true" aria-controls="mzp-c-menu-panel-products" aria-expanded="false">Produkty</a>
+  <div class="mzp-c-menu-panel mzp-has-card" id="mzp-c-menu-panel-products">
+    <div class="mzp-c-menu-panel-container">
+      <button class="mzp-c-menu-button-close" type="button" aria-controls="mzp-c-menu-panel-products">Zamknij menu produktów</button>
+      <div class="mzp-c-menu-panel-content">
+        <ul>
+          <li>
+            <section class="mzp-c-menu-item mzp-has-icon">
+              <a class="mzp-c-menu-item-link" href="https://www.mozilla.org/pl/firefox/lockwise/" data-link-name="Lockwise" data-link-type="nav" data-link-position="topnav" data-link-group="products">
+                <img class="mzp-c-menu-item-icon" src="./Firefox Developer Edition_files/logo-xs.a84325eb4951.png" alt="" width="24" height="24" loading="lazy">
+                <h4 class="mzp-c-menu-item-title">Firefox Lockwise</h4>
+                <p class="mzp-c-menu-item-desc">Miej hasła zachowane w&nbsp;Firefoksie zawsze przy sobie.</p>
+              </a>
+              <ul class="mzp-c-menu-item-list">
+                <li><a href="https://app.adjust.com/6tteyjo?redirect=https%3A%2F%2Fitunes.apple.com%2Fpl%2Fapp%2Fid1314000270%3Fmt%3D8&amp;campaign=www.mozilla.org&amp;adgroup=nav-firefox" rel="external noopener" data-link-name="Lockwise iOS" data-link-type="nav" data-link-position="subnav" data-link-group="products">Pobierz na iOS</a></li>
+                <li><a href="https://app.adjust.com/6tteyjo?redirect=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dmozilla.lockbox&amp;campaign=www.mozilla.org&amp;adgroup=nav-firefox" rel="external noopener" data-link-name="Lockwise Android" data-link-type="nav" data-link-position="subnav" data-link-group="products">Pobierz na Androida</a></li>
+                <li><a href="https://support.mozilla.org/products/firefox-lockwise?utm_source=www.mozilla.org&amp;utm_medium=referral&amp;utm_campaign=nav&amp;utm_content=projects" rel="external noopener" data-link-name="Lockwise Support" data-link-type="nav" data-link-position="subnav" data-link-group="products">Pomoc</a></li>
+              </ul>
+            </section>
+          </li>
+          <li>
+            <section class="mzp-c-menu-item mzp-has-icon">
+              <a class="mzp-c-menu-item-link" href="https://monitor.firefox.com/?utm_source=www.mozilla.org&amp;utm_medium=referral&amp;utm_campaign=nav&amp;utm_content=projects" data-link-name="Monitor" data-link-type="nav" data-link-position="topnav" data-link-group="products">
+                <img class="mzp-c-menu-item-icon" src="./Firefox Developer Edition_files/logo-xs.fc207874f091.png" alt="" width="24" height="24" loading="lazy">
+                <h4 class="mzp-c-menu-item-title">Firefox Monitor</h4>
+                <p class="mzp-c-menu-item-desc">Sprawdź, czy Twoje dane wyciekły w&nbsp;Internecie i&nbsp;subskrybuj przyszłe powiadomienia o&nbsp;wyciekach.</p>
+              </a>
+              <ul class="mzp-c-menu-item-list">
+                <li><a href="https://monitor.firefox.com/?utm_source=www.mozilla.org&amp;utm_medium=referral&amp;utm_campaign=nav&amp;utm_content=projects" rel="external noopener" data-link-name="Check for Breaches" data-link-type="nav" data-link-position="subnav" data-link-group="products">Sprawdź wycieki</a></li>
+                <li><a href="https://monitor.firefox.com/breaches/?utm_source=www.mozilla.org&amp;utm_medium=referral&amp;utm_campaign=nav&amp;utm_content=projects" rel="external noopener" data-link-name="See Breaches" data-link-type="nav" data-link-position="subnav" data-link-group="products">Zobacz wycieki</a></li>
+                <li><a href="https://monitor.firefox.com/security-tips?utm_source=www.mozilla.org&amp;utm_medium=referral&amp;utm_campaign=nav&amp;utm_content=projects" rel="external noopener" data-link-name="Security Tips" data-link-type="nav" data-link-position="subnav" data-link-group="products">Wskazówki bezpieczeństwa</a></li>
+              </ul>
+            </section>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <section class="mzp-c-menu-item mzp-has-icon">
+              <a class="mzp-c-menu-item-link" href="https://getpocket.com/?utm_source=www.mozilla.org&amp;utm_medium=referral&amp;utm_campaign=nav&amp;utm_content=projects" data-link-name="Pocket" data-link-type="nav" data-link-position="topnav" data-link-group="products">
+                <!--[if gt IE 8]><!--><svg class="mzp-c-menu-item-icon" width="24" height="22" xmlns="http://www.w3.org/2000/svg"><path d="M12 21.5c-6.627 0-12-5.373-12-12v-6a3 3 0 0 1 3-3h18a3 3 0 0 1 3 3v6c0 6.627-5.373 12-12 12zm5.977-15.048a1.485 1.485 0 0 0-1.087.479l-4.923 4.924-4.835-4.851A1.476 1.476 0 0 0 6 6.452a1.5 1.5 0 0 0-1.071 2.55l-.024.016 4.94 4.96 1.06 1.06a1.5 1.5 0 0 0 2.121 0l1.06-1.06 4.964-4.96a1.5 1.5 0 0 0-1.073-2.566z" fill="#FF4056" fill-rule="nonzero"></path></svg><!--<![endif]-->
+                <h4 class="mzp-c-menu-item-title">Pocket</h4>
+                <p class="mzp-c-menu-item-desc">Zachowuj wysokiej jakości treści, skąd tylko chcesz. Napędzaj nimi swój umysł, gdzie tylko chcesz.</p>
+              </a>
+              <ul class="mzp-c-menu-item-list">
+                <li><a href="https://getpocket.com/signup/?utm_source=www.mozilla.org&amp;utm_medium=referral&amp;utm_campaign=nav&amp;utm_content=projects" rel="external noopener" data-link-name="Pocket Sign Up" data-link-type="nav" data-link-position="subnav" data-link-group="products">Utwórz konto</a></li>
+                <li><!-- empty to push two download links to same line --></li>
+                <li><a href="https://app.adjust.com/m54twk?redirect=https%3A%2F%2Fitunes.apple.com%2Fpl%2Fapp%2Fpocket-save-read-grow%2Fid309601447&amp;campaign=www.mozilla.org&amp;adgroup=nav-firefox" rel="external noopener" data-link-name="Pocket iOS" data-link-type="nav" data-link-position="subnav" data-link-group="products">Pobierz na iOS</a></li>
+                <li><a href="https://app.adjust.com/m54twk?redirect=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.ideashower.readitlater.pro&amp;campaign=www.mozilla.org&amp;adgroup=nav-firefox" rel="external noopener" data-link-name="Pocket Android" data-link-type="nav" data-link-position="subnav" data-link-group="products">Pobierz na Androida</a></li>
+              </ul>
+            </section>
+          </li>
+        </ul>
+      </div>
+      <div class="mzp-c-menu-panel-card">
+      
+        <section class="mzp-c-card mzp-c-card-extra-small mzp-has-aspect-3-2">
+          <a class="mzp-c-card-block-link" href="https://vpn.mozilla.org/?utm_source=www.mozilla.org&amp;utm_medium=referral&amp;utm_campaign=nav&amp;utm_content=projects" data-link-name="Mozilla VPN" data-link-type="nav" data-link-position="card" data-link-group="products">
+            <div class="mzp-c-card-media-wrapper">
+              <img class="mzp-c-card-image" src="./Firefox Developer Edition_files/placeholder.71a50dbba44c.png" data-src="https://www.mozilla.org/media/img/nav/cards/mozilla-vpn.1863708227a1.png" data-srcset="https://www.mozilla.org/media/img/nav/cards/mozilla-vpn-high-res.cab9acbfbc06.png" alt="">
+              <noscript>
+                <img class="mzp-c-card-image" src="https://www.mozilla.org/media/img/nav/cards/mozilla-vpn.1863708227a1.png" alt="">
+              </noscript>
+            </div>
+            <div class="mzp-c-card-content">
+            <h2 class="mzp-c-card-title">Mozilla VPN: Szybko. Prosto. Prywatnie.</h2>
+            <p class="mzp-c-card-desc">Chroń całe swoje urządzenie i&nbsp;wszystkie aplikacje. Ukryj swoje prawdziwe położenie i&nbsp;podłącz do 5&nbsp;urządzeń. Subskrybuj już teraz.</p>
+            </div>
+          </a>
+        </section>
+      
+      </div>
+    </div><!-- close .mzp-c-menu-panel-container -->
+  </div><!-- close .mzp-c-menu-panel -->
+</li><!-- close products -->
+              <li class="mzp-c-menu-category mzp-has-drop-down mzp-js-expandable">
+  <a class="mzp-c-menu-title" href="https://www.mozilla.org/pl/firefox/accounts/" aria-haspopup="true" aria-controls="mzp-c-menu-panel-join" aria-expanded="false">Dołącz</a>
+  <div class="mzp-c-menu-panel mzp-has-card" id="mzp-c-menu-panel-join">
+    <div class="mzp-c-menu-panel-container">
+      <button class="mzp-c-menu-button-close" type="button" aria-controls="mzp-c-menu-panel-join">Zamknij menu dołączania</button>
+      <div class="mzp-c-menu-panel-content">
+        <ul>
+          <li>
+            <section class="mzp-c-menu-item mzp-has-icon">
+              <a class="mzp-c-menu-item-link" href="https://www.mozilla.org/pl/firefox/accounts/" data-link-name="Join Firefox" data-link-type="nav" data-link-position="topnav" data-link-group="join">
+                <img class="mzp-c-menu-item-icon" src="./Firefox Developer Edition_files/logo-xs.87d2c8ccee4b.png" alt="" width="24" height="24" loading="lazy">
+                <h4 class="mzp-c-menu-item-title">Dołącz do Firefoksa</h4>
+                <p class="mzp-c-menu-item-desc">Miej dostęp do wszystkiego, co Firefox oferuje za pomocą jednego logowania — i&nbsp;wyciągnij więcej z&nbsp;każdego naszego produktu.</p>
+              </a>
+              <ul class="mzp-c-menu-item-list">
+                <li class="fxa-signin">
+                  <a href="https://accounts.firefox.com/signin?entrypoint=mozilla.org-firefoxnav&amp;form_type=button&amp;utm_source=mozilla.org-firefoxnav&amp;utm_medium=referral&amp;utm_campaign=navigation&amp;utm_content=join-sign-in" data-action="https://accounts.firefox.com/" class="js-fxa-cta-link" data-cta-text="Sign In" data-cta-type="fxa-sync" data-cta-position="navigation" data-mozillaonline-link="https://accounts.firefox.com.cn/signin?entrypoint=mozilla.org-firefoxnav&amp;form_type=button&amp;utm_source=mozilla.org-firefoxnav&amp;utm_medium=referral&amp;utm_campaign=navigation&amp;utm_content=join-sign-in" data-mozillaonline-action="https://accounts.firefox.com.cn/">Zaloguj się</a>
+                </li>
+                <li class="fxa-signin">
+                  <a href="https://accounts.firefox.com/signup?entrypoint=mozilla.org-firefoxnav&amp;form_type=button&amp;utm_source=mozilla.org-firefoxnav&amp;utm_medium=referral&amp;utm_campaign=navigation&amp;utm_content=join-sign-up" data-action="https://accounts.firefox.com/" class="js-fxa-cta-link" data-cta-text="Sign Up" data-cta-type="fxa-sync" data-cta-position="navigation" data-mozillaonline-link="https://accounts.firefox.com.cn/signup?entrypoint=mozilla.org-firefoxnav&amp;form_type=button&amp;utm_source=mozilla.org-firefoxnav&amp;utm_medium=referral&amp;utm_campaign=navigation&amp;utm_content=join-sign-up" data-mozillaonline-action="https://accounts.firefox.com.cn/">Utwórz konto</a>
+                </li>
+                <li><a href="https://www.mozilla.org/pl/firefox/accounts/" data-link-name="Benefits" data-link-type="nav" data-link-position="subnav" data-link-group="browsers">Korzyści</a></li>
+              </ul>
+            </section>
+          </li>
+        </ul>
+      </div>
+      <div class="mzp-c-menu-panel-card">
+        <section class="mzp-c-card mzp-c-card-extra-small mzp-has-aspect-16-9">
+          <a class="mzp-c-card-block-link" href="https://www.mozilla.org/pl/firefox/products/" data-link-name="Firefox Family" data-link-type="nav" data-link-position="card" data-link-group="join">
+            <div class="mzp-c-card-media-wrapper">
+              <img class="mzp-c-card-image" src="./Firefox Developer Edition_files/placeholder.71a50dbba44c.png" data-src="https://www.mozilla.org/media/img/nav/cards/master.880ae02e49c3.jpg" data-srcset="https://www.mozilla.org/media/img/nav/cards/master-high-res.b6408ee28b11.jpg" alt="">
+              <noscript>
+                <img class="mzp-c-card-image" src="https://www.mozilla.org/media/img/nav/cards/master.880ae02e49c3.jpg" alt="">
+              </noscript>
+            </div>
+            <div class="mzp-c-card-content">
+            <h2 class="mzp-c-card-title">Poznaj rodzinę Firefoksa</h2>
+            <p class="mzp-c-card-desc">Chroń swoje życie w&nbsp;sieci za pomocą całej rodziny produktów, które stawiają prywatność na pierwszym miejscu.</p>
+            </div>
+          </a>
+        </section>
+      </div>
+    </div><!-- close .mzp-c-menu-panel-container -->
+  </div><!-- close .mzp-c-menu-panel -->
+</li><!-- close join -->
+              
+
+
+  
+
+
+<li class="mzp-c-menu-category mzp-has-drop-down mzp-js-expandable">
+  <a class="mzp-c-menu-title" href="https://www.mozilla.org/pl/about/" aria-haspopup="true" aria-controls="mzp-c-menu-panel-about" aria-expanded="false">O&nbsp;nas</a>
+  <div class="mzp-c-menu-panel mzp-has-card" id="mzp-c-menu-panel-about">
+    <div class="mzp-c-menu-panel-container">
+      <button class="mzp-c-menu-button-close" type="button" aria-controls="mzp-c-menu-panel-about">Zamknij menu Mozilli</button>
+      <div class="mzp-c-menu-panel-content">
+        <ul>
+          <li>
+            <section class="mzp-c-menu-item mzp-has-icon">
+              <a class="mzp-c-menu-item-link" href="https://blog.mozilla.org/firefox/?utm_source=www.mozilla.org&amp;utm_medium=referral&amp;utm_campaign=nav&amp;utm_content=about" data-link-name="Firefox Blog" data-link-type="nav" data-link-position="topnav" data-link-group="about">
+                <svg class="mzp-c-menu-item-icon" xmlns="http://www.w3.org/2000/svg" width="22" height="24" viewBox="0 0 22 24"><g fill="none" fill-rule="evenodd" stroke="#000" stroke-linecap="round" stroke-linejoin="round" transform="translate(1 1.879)"><path stroke-width="2" d="M9,1.12132031 L2,1.12132031 C0.8954305,1.12132031 5.32907052e-15,2.01675081 5.32907052e-15,3.12132031 L5.32907052e-15,15.1213203 C5.32907052e-15,16.2258898 0.8954305,17.1213203 2,17.1213203 L11,17.1213203 L13,21.1213203 L15,17.1213203 L17,17.1213203 C18.1045695,17.1213203 19,16.2258898 19,15.1213203 L19,9.12132031"></path><path stroke-width="2" d="M15.5,0.621320312 C16.3284271,-0.207106783 17.6715729,-0.207106769 18.5,0.621320344 C19.3284271,1.44974746 19.3284271,2.79289318 18.5,3.62132031 L11,11.1213203 L7,12.1213203 L8,8.12132031 L15.5,0.621320312 Z"></path></g></svg>
+                <h4 class="mzp-c-menu-item-title">Blog Firefoksa</h4>
+                <p class="mzp-c-menu-item-desc">Przeczytaj o&nbsp;nowych funkcjach Firefoksa i&nbsp;uzyskaj wskazówki, jak zachować bezpieczeństwo w&nbsp;Internecie.</p>
+              </a>
+            </section>
+          </li>
+          <li>
+            <section class="mzp-c-menu-item mzp-has-icon">
+              <a class="mzp-c-menu-item-link" href="https://www.mozilla.org/pl/about/" data-link-name="Mozilla" data-link-type="nav" data-link-position="topnav" data-link-group="about">
+                <svg class="mzp-c-menu-item-icon" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M6 6.706V6H2v2h2v8H2v2h7v-2H6v-6c.667-1.333 1.5-2 2.5-2s1.833.667 2.5 2v8h5v-2h-3v-6c.667-1.333 1.5-2 2.5-2s1.833.667 2.5 2v8h4v-2h-2v-6c-.667-2.667-2.167-4-4.5-4-1.52 0-2.687.566-3.5 1.699C11.187 6.566 10.02 6 8.5 6c-.98 0-1.814.235-2.5.706zM8.5 4c1.324 0 2.507.327 3.5.97.993-.643 2.176-.97 3.5-.97 3.308 0 5.563 2.004 6.44 5.515l.06.239V14h2v6H0v-6h2v-4H0V4h8c.164.005.331 0 .5 0zM16 14v-3.484a1.845 1.845 0 0 0-.374-.454c-.068-.055-.088-.062-.126-.062-.038 0-.058.007-.126.062-.111.09-.239.239-.374.454V14h1zm-7 0v-3.484a1.845 1.845 0 0 0-.374-.454C8.558 10.007 8.538 10 8.5 10c-.038 0-.058.007-.126.062-.111.09-.239.239-.374.454V14h1z" fill="#000" fill-rule="nonzero"></path></svg>
+                <h4 class="mzp-c-menu-item-title">Mozilla</h4>
+                <p class="mzp-c-menu-item-desc">Poznaj firmę technologiczną, która stawia ludzi przed zyskiem.</p>
+              </a>
+            </section>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <section class="mzp-c-menu-item mzp-has-icon">
+              <a class="mzp-c-menu-item-link" href="https://foundation.mozilla.org/?utm_source=www.mozilla.org&amp;utm_medium=referral&amp;utm_campaign=nav&amp;utm_content=about" data-link-name="Mozilla Foundation" data-link-type="nav" data-link-position="topnav" data-link-group="about">
+                <svg class="mzp-c-menu-item-icon" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M6 6.706V6H2v2h2v8H2v2h7v-2H6v-6c.667-1.333 1.5-2 2.5-2s1.833.667 2.5 2v8h5v-2h-3v-6c.667-1.333 1.5-2 2.5-2s1.833.667 2.5 2v8h4v-2h-2v-6c-.667-2.667-2.167-4-4.5-4-1.52 0-2.687.566-3.5 1.699C11.187 6.566 10.02 6 8.5 6c-.98 0-1.814.235-2.5.706zM8.5 4c1.324 0 2.507.327 3.5.97.993-.643 2.176-.97 3.5-.97 3.308 0 5.563 2.004 6.44 5.515l.06.239V14h2v6H0v-6h2v-4H0V4h8c.164.005.331 0 .5 0zM16 14v-3.484a1.845 1.845 0 0 0-.374-.454c-.068-.055-.088-.062-.126-.062-.038 0-.058.007-.126.062-.111.09-.239.239-.374.454V14h1zm-7 0v-3.484a1.845 1.845 0 0 0-.374-.454C8.558 10.007 8.538 10 8.5 10c-.038 0-.058.007-.126.062-.111.09-.239.239-.374.454V14h1z" fill="#000" fill-rule="nonzero"></path></svg>
+                <h4 class="mzp-c-menu-item-title">Mozilla Foundation</h4>
+                <p class="mzp-c-menu-item-desc">Organizacja non-profit stojąca za Firefoksem walczy o&nbsp;zdrowy Internet dla wszystkich.</p>
+              </a>
+            </section>
+          </li>
+          <li>
+            <section class="mzp-c-menu-item mzp-has-icon">
+              <a class="mzp-c-menu-item-link" href="https://www.mozilla.org/pl/firefox/privacy/" data-link-name="Privacy" data-link-type="nav" data-link-position="topnav" data-link-group="about">
+                <svg class="mzp-c-menu-item-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 18"><g fill="none" fill-rule="evenodd" stroke="#000" stroke-linecap="round" stroke-linejoin="round" transform="translate(1 1)"><path stroke-width="2" d="M0,8 C0,6 5.5,0 11,0 C16.5,0 22,6 22,8 C22,10 16.5,16 11,16 C5.5,16 0,10 0,8 Z"></path><path stroke-width="2" d="M11,12 C13.209139,12 15,10.209139 15,8 C15,5.790861 13.209139,4 11,4 C8.790861,4 7,5.790861 7,8 C7,10.209139 8.790861,12 11,12 Z"></path><circle cx="13" cy="6" r="1" fill="#000" stroke-width="2"></circle></g></svg>
+                <h4 class="mzp-c-menu-item-title">Prywatność</h4>
+                <p class="mzp-c-menu-item-desc">Dowiedz się, jak Firefox traktuje Twoje dane z&nbsp;szacunkiem.</p>
+              </a>
+            </section>
+          </li>
+        </ul>
+      </div>
+      <div class="mzp-c-menu-panel-card">
+        <section class="mzp-c-card mzp-c-card-extra-small mzp-has-aspect-16-9">
+          <a class="mzp-c-card-block-link" href="https://careers.mozilla.org/?utm_source=www.mozilla.org&amp;utm_medium=referral&amp;utm_campaign=nav&amp;utm_content=about" data-link-name="Mozilla Careers" data-link-type="nav" data-link-position="card" data-link-group="about">
+            <div class="mzp-c-card-media-wrapper">
+              <img class="mzp-c-card-image" src="./Firefox Developer Edition_files/placeholder.71a50dbba44c.png" data-src="https://www.mozilla.org/media/img/nav/cards/careers.2a561a8e095b.jpg" data-srcset="https://www.mozilla.org/media/img/nav/cards/careers-high-res.a5d2a53ba114.jpg" alt="">
+              <noscript>
+                <img class="mzp-c-card-image" src="https://www.mozilla.org/media/img/nav/cards/careers.2a561a8e095b.jpg" alt="">
+              </noscript>
+            </div>
+            <div class="mzp-c-card-content">
+            <h2 class="mzp-c-card-title">Praca w&nbsp;Mozilli</h2>
+            <p class="mzp-c-card-desc">Podejdź do swojej kariery z&nbsp;poczuciem celu. Znajdź dobrą pracę w&nbsp;Mozilli.</p>
+            </div>
+          </a>
+        </section>
+      </div>
+    </div><!-- close .mzp-c-menu-panel-container -->
+  </div><!-- close .mzp-c-menu-panel -->
+</li><!-- close about -->
+            </ul>
+          </nav>
+        </div><!-- close .mzp-c-navigation-menu -->
+      </div><!-- close .mzp-c-navigation-items -->
+    </div><!-- close .mzp-c-navigation-container -->
+  </div><!-- close .mzp-c-navigation-l-content -->
+</div><!-- close .mzp-c-navigation -->
+  
+
+
+    <div id="outer-wrapper">
+      
+<main role="main">
+  <section class="t-intro">
+    <div class="mzp-l-content">
+      <img class="" src="./Firefox Developer Edition_files/logo-word-hor-lg.977a1e574948.png" srcset="https://www.mozilla.org/media/protocol/img/logos/firefox/browser/developer/logo-word-hor-lg-high-res.a18e90a71b15.png 1.5x" alt="" width="368" height="68">
+      <h1 class="intro-title">Firefox Browser Developer Edition</h1>
+      <p class="intro-tagline">Witaj na pokładzie swojej nowej ulubionej przeglądarki. Najnowsze funkcje, najszybsze działanie oraz narzędzia do budowania otwartego Internetu.</p>
+
+      
+
+
+
+
+
+
+
+
+<div id="intro-download" class="download-button download-button-alpha download-button-desktop mzp-c-button-download-container">
+  
+  <div class="nojs-download">
+    
+  <div class="download download-dumb">
+    <p role="heading" class="download-heading">
+      
+        <span>Firefox</span> Developer Edition
+        — Polski
+    </p>
+    <ul>
+      <li><a href="https://download.mozilla.org/?product=firefox-devedition-stub&amp;os=win64&amp;lang=pl" class="download-link mzp-c-button mzp-t-product" data-link-type="download" data-download-version="win64" data-download-os="Desktop">Windows 64-bit</a>
+        </li><li><a href="https://download.mozilla.org/?product=firefox-devedition-msi-latest-ssl&amp;os=win64&amp;lang=pl" class="download-link mzp-c-button mzp-t-product" data-link-type="download" data-download-version="win64-msi" data-download-os="Desktop">Windows 64-bit MSI</a>
+        </li><li><a href="https://download.mozilla.org/?product=firefox-devedition-latest-ssl&amp;os=win64-aarch64&amp;lang=pl" class="download-link mzp-c-button mzp-t-product" data-link-type="download" data-download-version="win64-aarch64" data-download-os="Desktop">Windows ARM64/AArch64</a>
+        </li><li><a href="https://download.mozilla.org/?product=firefox-devedition-stub&amp;os=win&amp;lang=pl" class="download-link mzp-c-button mzp-t-product" data-link-type="download" data-download-version="win" data-download-os="Desktop">Windows 32-bit</a>
+        </li><li><a href="https://download.mozilla.org/?product=firefox-devedition-msi-latest-ssl&amp;os=win&amp;lang=pl" class="download-link mzp-c-button mzp-t-product" data-link-type="download" data-download-version="win-msi" data-download-os="Desktop">Windows 32-bit MSI</a>
+        </li><li><a href="https://download.mozilla.org/?product=firefox-devedition-latest-ssl&amp;os=osx&amp;lang=pl" class="download-link mzp-c-button mzp-t-product" data-link-type="download" data-download-version="osx" data-download-os="Desktop">macOS</a>
+        </li><li><a href="https://download.mozilla.org/?product=firefox-devedition-latest-ssl&amp;os=linux64&amp;lang=pl" class="download-link mzp-c-button mzp-t-product" data-link-type="download" data-download-version="linux64" data-download-os="Desktop">Linux 64-bit</a>
+        </li><li><a href="https://download.mozilla.org/?product=firefox-devedition-latest-ssl&amp;os=linux&amp;lang=pl" class="download-link mzp-c-button mzp-t-product" data-link-type="download" data-download-version="linux" data-download-os="Desktop">Linux 32-bit</a>
+        </li>
+    </ul>
+  </div>
+
+  </div>
+  
+    
+    <div class="unrecognized-download" data-nosnippet="true">
+      <p>Używany system operacyjny może nie&nbsp;spełniać wymagań Firefoksa, można jednak spróbować z&nbsp;poniższymi wersjami:</p>
+      
+  <div class="download download-dumb">
+    <p role="heading" class="download-heading">
+      
+        <span>Firefox</span> Developer Edition
+        — Polski
+    </p>
+    <ul>
+      <li><a href="https://download.mozilla.org/?product=firefox-devedition-stub&amp;os=win64&amp;lang=pl" class="download-link mzp-c-button mzp-t-product" data-link-type="download" data-download-version="win64" data-download-os="Desktop">Windows 64-bit</a>
+        </li><li><a href="https://download.mozilla.org/?product=firefox-devedition-msi-latest-ssl&amp;os=win64&amp;lang=pl" class="download-link mzp-c-button mzp-t-product" data-link-type="download" data-download-version="win64-msi" data-download-os="Desktop">Windows 64-bit MSI</a>
+        </li><li><a href="https://download.mozilla.org/?product=firefox-devedition-latest-ssl&amp;os=win64-aarch64&amp;lang=pl" class="download-link mzp-c-button mzp-t-product" data-link-type="download" data-download-version="win64-aarch64" data-download-os="Desktop">Windows ARM64/AArch64</a>
+        </li><li><a href="https://download.mozilla.org/?product=firefox-devedition-stub&amp;os=win&amp;lang=pl" class="download-link mzp-c-button mzp-t-product" data-link-type="download" data-download-version="win" data-download-os="Desktop">Windows 32-bit</a>
+        </li><li><a href="https://download.mozilla.org/?product=firefox-devedition-msi-latest-ssl&amp;os=win&amp;lang=pl" class="download-link mzp-c-button mzp-t-product" data-link-type="download" data-download-version="win-msi" data-download-os="Desktop">Windows 32-bit MSI</a>
+        </li><li><a href="https://download.mozilla.org/?product=firefox-devedition-latest-ssl&amp;os=osx&amp;lang=pl" class="download-link mzp-c-button mzp-t-product" data-link-type="download" data-download-version="osx" data-download-os="Desktop">macOS</a>
+        </li><li><a href="https://download.mozilla.org/?product=firefox-devedition-latest-ssl&amp;os=linux64&amp;lang=pl" class="download-link mzp-c-button mzp-t-product" data-link-type="download" data-download-version="linux64" data-download-os="Desktop">Linux 64-bit</a>
+        </li><li><a href="https://download.mozilla.org/?product=firefox-devedition-latest-ssl&amp;os=linux&amp;lang=pl" class="download-link mzp-c-button mzp-t-product" data-link-type="download" data-download-version="linux" data-download-os="Desktop">Linux 32-bit</a>
+        </li>
+    </ul>
+  </div>
+
+    </div>
+  
+  <ul class="download-list">
+    
+      <li class="os_win64">
+        <a class="download-link button mzp-t-xl mzp-c-button mzp-t-product" id="intro-download-win64" href="https://download.mozilla.org/?product=firefox-devedition-stub&amp;os=win64&amp;lang=pl&amp;attribution_code=c291cmNlPXd3dy5nb29nbGUuY29tJm1lZGl1bT1yZWZlcnJhbCZjYW1wYWlnbj0obm90IHNldCkmY29udGVudD0obm90IHNldCkmZXhwZXJpbWVudD0obm90IHNldCkmdmFyaWF0aW9uPShub3Qgc2V0KSZ1YT1jaHJvbWU.&amp;attribution_sig=774d9972789664be6672b065e7f33820ea1cb1e7bafb5ea8c6b2a4f4bc207c70" data-link-type="download" data-display-name="Windows 64-bit" data-download-version="win64" data-download-os="Desktop" data-download-location="primary cta">
+          <strong class="download-title">
+            
+              
+                
+                  <span>Firefox</span> Developer Edition
+                
+              
+            
+          </strong>
+        </a>
+      </li>
+    
+      <li class="os_win64-msi">
+        <a class="download-link button mzp-t-xl mzp-c-button mzp-t-product" id="intro-download-win64-msi" href="https://download.mozilla.org/?product=firefox-devedition-msi-latest-ssl&amp;os=win64&amp;lang=pl&amp;attribution_code=c291cmNlPXd3dy5nb29nbGUuY29tJm1lZGl1bT1yZWZlcnJhbCZjYW1wYWlnbj0obm90IHNldCkmY29udGVudD0obm90IHNldCkmZXhwZXJpbWVudD0obm90IHNldCkmdmFyaWF0aW9uPShub3Qgc2V0KSZ1YT1jaHJvbWU.&amp;attribution_sig=774d9972789664be6672b065e7f33820ea1cb1e7bafb5ea8c6b2a4f4bc207c70" data-link-type="download" data-display-name="Windows 64-bit MSI" data-download-version="win64-msi" data-download-os="Desktop" data-download-location="primary cta">
+          <strong class="download-title">
+            
+              
+                
+                  <span>Firefox</span> Developer Edition
+                
+              
+            
+          </strong>
+        </a>
+      </li>
+    
+      <li class="os_win64-aarch64">
+        <a class="download-link button mzp-t-xl mzp-c-button mzp-t-product" id="intro-download-win64-aarch64" href="https://download.mozilla.org/?product=firefox-devedition-latest-ssl&amp;os=win64-aarch64&amp;lang=pl&amp;attribution_code=c291cmNlPXd3dy5nb29nbGUuY29tJm1lZGl1bT1yZWZlcnJhbCZjYW1wYWlnbj0obm90IHNldCkmY29udGVudD0obm90IHNldCkmZXhwZXJpbWVudD0obm90IHNldCkmdmFyaWF0aW9uPShub3Qgc2V0KSZ1YT1jaHJvbWU.&amp;attribution_sig=774d9972789664be6672b065e7f33820ea1cb1e7bafb5ea8c6b2a4f4bc207c70" data-link-type="download" data-display-name="Windows ARM64/AArch64" data-download-version="win64-aarch64" data-download-os="Desktop" data-download-location="primary cta">
+          <strong class="download-title">
+            
+              
+                
+                  <span>Firefox</span> Developer Edition
+                
+              
+            
+          </strong>
+        </a>
+      </li>
+    
+      <li class="os_win">
+        <a class="download-link button mzp-t-xl mzp-c-button mzp-t-product" id="intro-download-win" href="https://download.mozilla.org/?product=firefox-devedition-stub&amp;os=win&amp;lang=pl&amp;attribution_code=c291cmNlPXd3dy5nb29nbGUuY29tJm1lZGl1bT1yZWZlcnJhbCZjYW1wYWlnbj0obm90IHNldCkmY29udGVudD0obm90IHNldCkmZXhwZXJpbWVudD0obm90IHNldCkmdmFyaWF0aW9uPShub3Qgc2V0KSZ1YT1jaHJvbWU.&amp;attribution_sig=774d9972789664be6672b065e7f33820ea1cb1e7bafb5ea8c6b2a4f4bc207c70" data-link-type="download" data-display-name="Windows 32-bit" data-download-version="win" data-download-os="Desktop" data-download-location="primary cta">
+          <strong class="download-title">
+            
+              
+                
+                  <span>Firefox</span> Developer Edition
+                
+              
+            
+          </strong>
+        </a>
+      </li>
+    
+      <li class="os_win-msi">
+        <a class="download-link button mzp-t-xl mzp-c-button mzp-t-product" id="intro-download-win-msi" href="https://download.mozilla.org/?product=firefox-devedition-msi-latest-ssl&amp;os=win&amp;lang=pl&amp;attribution_code=c291cmNlPXd3dy5nb29nbGUuY29tJm1lZGl1bT1yZWZlcnJhbCZjYW1wYWlnbj0obm90IHNldCkmY29udGVudD0obm90IHNldCkmZXhwZXJpbWVudD0obm90IHNldCkmdmFyaWF0aW9uPShub3Qgc2V0KSZ1YT1jaHJvbWU.&amp;attribution_sig=774d9972789664be6672b065e7f33820ea1cb1e7bafb5ea8c6b2a4f4bc207c70" data-link-type="download" data-display-name="Windows 32-bit MSI" data-download-version="win-msi" data-download-os="Desktop" data-download-location="primary cta">
+          <strong class="download-title">
+            
+              
+                
+                  <span>Firefox</span> Developer Edition
+                
+              
+            
+          </strong>
+        </a>
+      </li>
+    
+      <li class="os_osx">
+        <a class="download-link button mzp-t-xl mzp-c-button mzp-t-product" id="intro-download-osx" href="https://download.mozilla.org/?product=firefox-devedition-latest-ssl&amp;os=osx&amp;lang=pl" data-link-type="download" data-display-name="macOS" data-download-version="osx" data-download-os="Desktop" data-download-location="primary cta">
+          <strong class="download-title">
+            
+              
+                
+                  <span>Firefox</span> Developer Edition
+                
+              
+            
+          </strong>
+        </a>
+      </li>
+    
+      <li class="os_linux64">
+        <a class="download-link button mzp-t-xl mzp-c-button mzp-t-product" id="intro-download-linux64" href="https://download.mozilla.org/?product=firefox-devedition-latest-ssl&amp;os=linux64&amp;lang=pl" data-link-type="download" data-display-name="Linux 64-bit" data-download-version="linux64" data-download-os="Desktop" data-download-location="primary cta">
+          <strong class="download-title">
+            
+              
+                
+                  <span>Firefox</span> Developer Edition
+                
+              
+            
+          </strong>
+        </a>
+      </li>
+    
+      <li class="os_linux">
+        <a class="download-link button mzp-t-xl mzp-c-button mzp-t-product" id="intro-download-linux" href="https://download.mozilla.org/?product=firefox-devedition-latest-ssl&amp;os=linux&amp;lang=pl" data-link-type="download" data-display-name="Linux 32-bit" data-download-version="linux" data-download-os="Desktop" data-download-location="primary cta">
+          <strong class="download-title">
+            
+              
+                
+                  <span>Firefox</span> Developer Edition
+                
+              
+            
+          </strong>
+        </a>
+      </li>
+    
+  </ul>
+  <small class="fx-privacy-link mzp-c-button-download-privacy-link">
+    <a href="https://www.mozilla.org/pl/privacy/firefox/">
+      Zasady ochrony prywatności Firefoksa
+    </a>
+  </small>
+</div>
+
+      <p class="intro-feedback-note">
+        Firefox Developer Edition automatycznie przesyła statystyki użytkownika do Mozilli.
+        <a href="https://www.mozilla.org/pl/privacy/firefox/#pre-release" class="more">Więcej&nbsp;informacji</a>
+      </p>
+    </div>
+    <div class="intro-image">
+      <img class="" src="./Firefox Developer Edition_files/hero-screenshot.baf6dd693658.png" srcset="https://www.mozilla.org/media/img/firefox/developer/hero-screenshot-high-res.45fbecfeecba.png 1.5x" alt="" width="1200" height="337">
+    </div>
+  </section>
+
+  
+    <section class="mzp-l-content t-performance" id="nextgen">
+  <div class="mzp-c-card-feature mzp-has-aspect-3-2 mzp-l-card-feature-left-half">
+    <div class="mzp-c-card-feature-media-wrapper">
+      <div class="mzp-c-card-feature-media">
+        <img src="./Firefox Developer Edition_files/stylo-engine.svg" alt="">
+      </div>
+    </div>
+    <div class="mzp-c-card-feature-content">
+      <div class="mzp-c-card-feature-content-container">
+        <h2 class="mzp-c-card-feature-title">Wyższa wydajność</h2>
+        <div class="mzp-c-card-feature-desc">
+          <p class="c-subtitle">CSS nowej generacji</p>
+          <p>
+            Firefox Quantum zawiera nowy sposób renderowania CSS, napisany w&nbsp;języku Rust, który jest nowoczesny i&nbsp;oszałamiająco wydajny.
+          </p>
+          <p class="mzp-c-cta-link"><a href="https://hacks.mozilla.org/2017/08/inside-a-super-fast-css-engine-quantum-css-aka-stylo/">Więcej&nbsp;informacji</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  
+
+  <section class="t-highlights mzp-l-content">
+  <div class="c-gallery-grid">
+    
+      <div class="c-gallery-item" id="devtools">
+        <a href="https://hacks.mozilla.org/2019/10/firefox-70-a-bountiful-release-for-all/#developertools" rel="external">
+          <img class="highlight-image" src="./Firefox Developer Edition_files/hero-inactive-css.40a2e0b8ddb1.png" srcset="https://www.mozilla.org/media/img/firefox/developer/hero-inactive-css-high-res.87cdf3a5bf40.png 1.5x" alt="Nieaktywny kod CSS">
+        </a>
+        <h2 class="c-title">Nowe narzędzia</h2>
+        <h3 class="c-subtitle">Nieaktywny kod CSS</h3>
+        <p>
+        Narzędzia dla programistów wyszarzają teraz deklaracje CSS, które nie mają wpływu na stronę. Po najechaniu na ikonę informacji wyświetlony zostanie przydatny komunikat o&nbsp;tym, dlaczego kod CSS nie jest stosowany, a&nbsp;także wskazówkę, jak naprawić problem.
+        </p>
+        <p><a class="mzp-c-cta-link" rel="external" href="https://hacks.mozilla.org/2019/10/firefox-70-a-bountiful-release-for-all/#developertools">Więcej&nbsp;informacji</a></p>
+      </div>
+    
+    <div class="c-gallery-item" id="devtools">
+      <a href="https://mozilladevelopers.github.io/playground/debugger/" rel="external">
+        <img class="highlight-image" src="./Firefox Developer Edition_files/hero-debugger-ani.7e04d95e76ea.gif" alt="_(&#39;Firefox DevTools&#39;)">
+      </a>
+      <h2 class="c-title">Nowe narzędzia</h2>
+      <h3 class="c-subtitle">Narzędzia dla programistów</h3>
+      <p>
+      Nowe narzędzia dla programistów oferują wysoką wydajność i&nbsp;możliwość personalizacji. Wśród nich jest najlepszy debuger języka JavaScript, napisany w&nbsp;React i&nbsp;Redux, działający z&nbsp;wieloma przeglądarkami.
+      </p>
+      <p><a class="mzp-c-cta-link" rel="external" href="https://mozilladevelopers.github.io/playground/debugger/">Więcej&nbsp;informacji</a></p>
+    </div>
+
+    <div class="c-gallery-item" id="cssgrid">
+      <a href="https://mozilladevelopers.github.io/playground/css-grid/" rel="external">
+        <img class="highlight-image" src="./Firefox Developer Edition_files/hero-cssgrid-ani.c0a7ace9dbf7.gif" alt="_(&#39;Master CSS Grid&#39;)">
+      </a>
+      <h2 class="c-title">Innowacyjne funkcje</h2>
+      <h3 class="c-subtitle">Opanuj CSS Grid</h3>
+      <p>
+      Firefox to jedyna przeglądarka z&nbsp;narzędziami do tworzenia i&nbsp;projektowania za pomocą CSS Grid. Umożliwiają one wyświetlenie siatki i&nbsp;powiązanych z&nbsp;nią nazw obszarów, podgląd transformacji i&nbsp;wiele więcej.
+      </p>
+      <p><a class="mzp-c-cta-link" rel="external" href="https://mozilladevelopers.github.io/playground/css-grid/">Więcej&nbsp;informacji</a></p>
+    </div>
+
+    
+      
+
+      <div class="c-gallery-item">
+        <a rel="external" href="https://developer.mozilla.org/docs/Tools/Page_Inspector/How_to/Edit_fonts">
+          <img class="highlight-image" src="./Firefox Developer Edition_files/hero-fonts.0e574b98aa63.gif" alt="_(&#39;Fonts Panel&#39;)">
+        </a>
+        <h2 class="c-title">Szybsze informacje</h2>
+        <h3 class="c-subtitle">Panel czcionek</h3>
+        <p>
+        Nowy panel czcionek narzędzi dla programistów zapewnia szybki dostęp do wszystkich informacji o&nbsp;czcionkach używanych w&nbsp;elemencie. Zawiera także wartościowe informacje, takie jak źródło czcionki, waga, styl i&nbsp;nie tylko.
+        </p>
+        <p><a class="mzp-c-cta-link" rel="external" href="https://developer.mozilla.org/docs/Tools/Page_Inspector/How_to/Edit_fonts">Więcej&nbsp;informacji</a></p>
+      </div>
+    
+  </div>
+</section>
+
+  <section class="t-features mzp-l-content">
+  <h2 class="c-title"><span>Projektuj. Programuj. Testuj. Ulepszaj.</span></h2>
+  
+  <h3 class="c-subtitle">Twórz i&nbsp;udoskonalaj strony<br> z&nbsp;Firefoksem</h3>
+
+  <ul class="c-gallery-grid">
+    <li class="c-gallery-item">
+      <img class="c-feature-img" src="./Firefox Developer Edition_files/feature-inspector.35e75cc1e376.svg" alt="">
+      <h3 class="c-feature-name">Inspektor</h3>
+      <p class="c-feature-desc">
+        Uzyskaj pełny wgląd w&nbsp;kod strony i&nbsp;twórz doskonałe projekty.
+        
+          </p><p class="c-feature-more"><a href="https://developer.mozilla.org/docs/Tools/Page_Inspector" class="mzp-c-cta-link" rel="external">Więcej informacji o&nbsp;inspektorze stron</a></p>
+        
+      <p></p>
+    </li>
+
+    <li class="c-gallery-item">
+      <img class="c-feature-img" src="./Firefox Developer Edition_files/feature-console.b6dd52efcc7f.svg" alt="">
+      <h3 class="c-feature-name">Konsola</h3>
+      <p class="c-feature-desc">
+        Znajdź problemy z&nbsp;CSS, JavaScript, bezpieczeństwem i&nbsp;siecią.
+        
+          </p><p class="c-feature-more"><a href="https://developer.mozilla.org/docs/Tools/Web_Console" class="mzp-c-cta-link" rel="external">Więcej informacji o&nbsp;konsoli WWW</a></p>
+        
+      <p></p>
+    </li>
+
+    <li class="c-gallery-item">
+      <img class="c-feature-img" src="./Firefox Developer Edition_files/feature-debugger.eb8b25a35291.svg" alt="">
+      <h3 class="c-feature-name">Debuger</h3>
+      <p class="c-feature-desc">
+        Wydajny debuger JavaScript obsługujący Twoje biblioteki.
+        
+          </p><p class="c-feature-more"><a href="https://developer.mozilla.org/docs/Tools/Debugger" class="mzp-c-cta-link" rel="external">Więcej informacji o&nbsp;debugerze JavaScriptu</a></p>
+        
+      <p></p>
+    </li>
+
+    <li class="c-gallery-item">
+      <img class="c-feature-img" src="./Firefox Developer Edition_files/feature-network.c64ea51a34de.svg" alt="">
+      <h3 class="c-feature-name">Sieć</h3>
+      <p class="c-feature-desc">
+        Monitoruj wysyłane żądania sieciowe, które mogą spowalniać lub blokować Twoją stronę.
+        
+          </p><p class="c-feature-more"><a href="https://developer.mozilla.org/docs/Tools/Network_Monitor" class="mzp-c-cta-link" rel="external">Więcej informacji o&nbsp;monitorze sieci</a></p>
+        
+      <p></p>
+    </li>
+
+    <li class="c-gallery-item">
+      <img class="c-feature-img" src="./Firefox Developer Edition_files/feature-storage.61859e2d2627.svg" alt="">
+      <h3 class="c-feature-name">Panel inspektora przechowywanych danych</h3>
+      <p class="c-feature-desc">
+        Dodawaj, modyfikuj i&nbsp;usuwaj pamięć podręczną, ciasteczka, bazy danych i&nbsp;dane sesji.
+        
+          </p><p class="c-feature-more"><a href="https://developer.mozilla.org/docs/Tools/Storage_Inspector" class="mzp-c-cta-link" rel="external">Więcej informacji o&nbsp;panelu przechowywania danych inspektora</a></p>
+        
+      <p></p>
+    </li>
+
+    <li class="c-gallery-item">
+      <img class="c-feature-img" src="./Firefox Developer Edition_files/feature-responsive-mode.2d162490fbcd.svg" alt="">
+      <h3 class="c-feature-name">Tryb responsywny</h3>
+      <p class="c-feature-desc">
+        Testuj strony na urządzeniach emulowanych w&nbsp;przeglądarce.
+        
+          </p><p class="c-feature-more"><a href="https://developer.mozilla.org/docs/Tools/Responsive_Design_View" class="mzp-c-cta-link" rel="external">Więcej informacji o&nbsp;trybie responsywnym</a></p>
+        
+      <p></p>
+    </li>
+
+    <li class="c-gallery-item">
+      <img class="c-feature-img" src="./Firefox Developer Edition_files/feature-visual-editing.3b68a6c300ca.svg" alt="">
+      <h3 class="c-feature-name">Edytor graficzny</h3>
+      <p class="c-feature-desc">
+        Wyreguluj animacje, wyrównania i&nbsp;odstępy.
+        
+          </p><p class="c-feature-more"><a href="https://hacks.mozilla.org/2015/11/developer-edition-44-creative-tools-and-more" class="mzp-c-cta-link" rel="external">Więcej informacji o&nbsp;edytorze graficznym</a></p>
+        
+      <p></p>
+    </li>
+
+    <li class="c-gallery-item">
+      <img class="c-feature-img" src="./Firefox Developer Edition_files/feature-performance.f9dc51d3311b.svg" alt="">
+      <h3 class="c-feature-name">Wydajność</h3>
+      <p class="c-feature-desc">
+        Odblokuj zatory, usprawnij procesy, optymalizuj zasoby.
+        
+          </p><p class="c-feature-more"><a href="https://developer.mozilla.org/docs/Tools/Performance" class="mzp-c-cta-link" rel="external">Więcej informacji o&nbsp;narzędziach wydajności</a></p>
+        
+      <p></p>
+    </li>
+
+    <li class="c-gallery-item">
+      <img class="c-feature-img" src="./Firefox Developer Edition_files/feature-memory.0e3890974c3f.svg" alt="">
+      <h3 class="c-feature-name">Pamięć</h3>
+      <p class="c-feature-desc">
+        Znajdź problemy ze zużyciem pamięci i&nbsp;przyspiesz swoją aplikację.
+        
+          </p><p class="c-feature-more"><a href="https://developer.mozilla.org/docs/Tools/Memory" class="mzp-c-cta-link" rel="external">Więcej informacji o&nbsp;narzędziach pamięci</a></p>
+        
+      <p></p>
+    </li>
+
+    <li class="c-gallery-item">
+      <img class="c-feature-img" src="./Firefox Developer Edition_files/feature-style-editor.6de1bd8ae46c.svg" alt="">
+      <h3 class="c-feature-name">Edytor stylów</h3>
+      <p class="c-feature-desc">
+        Edytuj i&nbsp;zarządzaj wszystkimi arkuszami CSS z&nbsp;poziomu przeglądarki.
+        
+          </p><p class="c-feature-more"><a href="https://developer.mozilla.org/docs/Tools/Style_Editor" class="mzp-c-cta-link" rel="external">Więcej informacji o&nbsp;edytorze stylów</a></p>
+        
+      <p></p>
+    </li>
+  </ul>
+</section>
+
+  <section class="t-engage mzp-t-dark">
+    <div class="mzp-l-content t-do">
+  <section class="mzp-c-card-picto mzp-c-card-picto-compact t-speak-up">
+    <div class="mzp-c-card-picto-content">
+        <h3 class="mzp-c-card-picto-title">Daj nam znać</h3>
+        <p>Opinie innych pomagają nam być lepszymi. Powiedz nam, jak możemy ulepszyć przeglądarkę i&nbsp;narzędzia.</p>
+        <p><a class="mzp-c-cta-link" href="https://discourse.mozilla.org/c/devtools">Dołącz do rozmowy</a></p>
+    </div>
+  </section>
+  <section class="mzp-c-card-picto mzp-c-card-picto-compact t-get-involved">
+    <div class="mzp-c-card-picto-content">
+        <h3 class="mzp-c-card-picto-title">Dołącz do nas</h3>
+        <p>Pomóż tworzyć ostatnią prawdziwie niezależną przeglądarkę. Pisz kod, naprawiaj błędy, twórz dodatki.</p>
+        <p><a class="mzp-c-cta-link" href="https://firefox-dev.tools/">Zacznij teraz</a></p>
+    </div>
+  </section>
+</div>
+
+    <div class="mzp-l-content t-download">
+      <section class="mzp-c-card-feature mzp-has-aspect-3-2 mzp-l-card-feature-right-half">
+        <div class="mzp-c-card-feature-media-wrapper">
+          <div class="mzp-c-card-feature-media">
+              <img class="" src="./Firefox Developer Edition_files/browser.a6cc14615f6f.png" srcset="https://www.mozilla.org/media/img/firefox/developer/browser-high-res.233175f07965.png 1.5x" alt="" width="334" height="228">
+          </div>
+        </div>
+        <div class="mzp-c-card-feature-content">
+          <div class="mzp-c-card-feature-content-container">
+            <h2 class="mzp-c-card-feature-title">Pobierz przeglądarkę tworzoną z&nbsp;myślą o&nbsp;twórcach sieci</h2>
+            <div class="mzp-c-card-feature-desc">
+                
+
+
+
+
+
+
+
+
+<div id="footer-download" class="download-button download-button-alpha download-button-desktop mzp-c-button-download-container">
+  
+  <div class="nojs-download">
+    
+  <div class="download download-dumb">
+    <p role="heading" class="download-heading">
+      
+        <span>Firefox</span> Developer Edition
+        — Polski
+    </p>
+    <ul>
+      <li><a href="https://download.mozilla.org/?product=firefox-devedition-stub&amp;os=win64&amp;lang=pl" class="download-link mzp-c-button mzp-t-product" data-link-type="download" data-download-version="win64" data-download-os="Desktop">Windows 64-bit</a>
+        </li><li><a href="https://download.mozilla.org/?product=firefox-devedition-msi-latest-ssl&amp;os=win64&amp;lang=pl" class="download-link mzp-c-button mzp-t-product" data-link-type="download" data-download-version="win64-msi" data-download-os="Desktop">Windows 64-bit MSI</a>
+        </li><li><a href="https://download.mozilla.org/?product=firefox-devedition-latest-ssl&amp;os=win64-aarch64&amp;lang=pl" class="download-link mzp-c-button mzp-t-product" data-link-type="download" data-download-version="win64-aarch64" data-download-os="Desktop">Windows ARM64/AArch64</a>
+        </li><li><a href="https://download.mozilla.org/?product=firefox-devedition-stub&amp;os=win&amp;lang=pl" class="download-link mzp-c-button mzp-t-product" data-link-type="download" data-download-version="win" data-download-os="Desktop">Windows 32-bit</a>
+        </li><li><a href="https://download.mozilla.org/?product=firefox-devedition-msi-latest-ssl&amp;os=win&amp;lang=pl" class="download-link mzp-c-button mzp-t-product" data-link-type="download" data-download-version="win-msi" data-download-os="Desktop">Windows 32-bit MSI</a>
+        </li><li><a href="https://download.mozilla.org/?product=firefox-devedition-latest-ssl&amp;os=osx&amp;lang=pl" class="download-link mzp-c-button mzp-t-product" data-link-type="download" data-download-version="osx" data-download-os="Desktop">macOS</a>
+        </li><li><a href="https://download.mozilla.org/?product=firefox-devedition-latest-ssl&amp;os=linux64&amp;lang=pl" class="download-link mzp-c-button mzp-t-product" data-link-type="download" data-download-version="linux64" data-download-os="Desktop">Linux 64-bit</a>
+        </li><li><a href="https://download.mozilla.org/?product=firefox-devedition-latest-ssl&amp;os=linux&amp;lang=pl" class="download-link mzp-c-button mzp-t-product" data-link-type="download" data-download-version="linux" data-download-os="Desktop">Linux 32-bit</a>
+        </li>
+    </ul>
+  </div>
+
+  </div>
+  
+    
+    <div class="unrecognized-download" data-nosnippet="true">
+      <p>Używany system operacyjny może nie&nbsp;spełniać wymagań Firefoksa, można jednak spróbować z&nbsp;poniższymi wersjami:</p>
+      
+  <div class="download download-dumb">
+    <p role="heading" class="download-heading">
+      
+        <span>Firefox</span> Developer Edition
+        — Polski
+    </p>
+    <ul>
+      <li><a href="https://download.mozilla.org/?product=firefox-devedition-stub&amp;os=win64&amp;lang=pl" class="download-link mzp-c-button mzp-t-product" data-link-type="download" data-download-version="win64" data-download-os="Desktop">Windows 64-bit</a>
+        </li><li><a href="https://download.mozilla.org/?product=firefox-devedition-msi-latest-ssl&amp;os=win64&amp;lang=pl" class="download-link mzp-c-button mzp-t-product" data-link-type="download" data-download-version="win64-msi" data-download-os="Desktop">Windows 64-bit MSI</a>
+        </li><li><a href="https://download.mozilla.org/?product=firefox-devedition-latest-ssl&amp;os=win64-aarch64&amp;lang=pl" class="download-link mzp-c-button mzp-t-product" data-link-type="download" data-download-version="win64-aarch64" data-download-os="Desktop">Windows ARM64/AArch64</a>
+        </li><li><a href="https://download.mozilla.org/?product=firefox-devedition-stub&amp;os=win&amp;lang=pl" class="download-link mzp-c-button mzp-t-product" data-link-type="download" data-download-version="win" data-download-os="Desktop">Windows 32-bit</a>
+        </li><li><a href="https://download.mozilla.org/?product=firefox-devedition-msi-latest-ssl&amp;os=win&amp;lang=pl" class="download-link mzp-c-button mzp-t-product" data-link-type="download" data-download-version="win-msi" data-download-os="Desktop">Windows 32-bit MSI</a>
+        </li><li><a href="https://download.mozilla.org/?product=firefox-devedition-latest-ssl&amp;os=osx&amp;lang=pl" class="download-link mzp-c-button mzp-t-product" data-link-type="download" data-download-version="osx" data-download-os="Desktop">macOS</a>
+        </li><li><a href="https://download.mozilla.org/?product=firefox-devedition-latest-ssl&amp;os=linux64&amp;lang=pl" class="download-link mzp-c-button mzp-t-product" data-link-type="download" data-download-version="linux64" data-download-os="Desktop">Linux 64-bit</a>
+        </li><li><a href="https://download.mozilla.org/?product=firefox-devedition-latest-ssl&amp;os=linux&amp;lang=pl" class="download-link mzp-c-button mzp-t-product" data-link-type="download" data-download-version="linux" data-download-os="Desktop">Linux 32-bit</a>
+        </li>
+    </ul>
+  </div>
+
+    </div>
+  
+  <ul class="download-list">
+    
+      <li class="os_win64">
+        <a class="download-link button mzp-t-xl mzp-c-button mzp-t-product" id="footer-download-win64" href="https://download.mozilla.org/?product=firefox-devedition-stub&amp;os=win64&amp;lang=pl&amp;attribution_code=c291cmNlPXd3dy5nb29nbGUuY29tJm1lZGl1bT1yZWZlcnJhbCZjYW1wYWlnbj0obm90IHNldCkmY29udGVudD0obm90IHNldCkmZXhwZXJpbWVudD0obm90IHNldCkmdmFyaWF0aW9uPShub3Qgc2V0KSZ1YT1jaHJvbWU.&amp;attribution_sig=774d9972789664be6672b065e7f33820ea1cb1e7bafb5ea8c6b2a4f4bc207c70" data-link-type="download" data-display-name="Windows 64-bit" data-download-version="win64" data-download-os="Desktop" data-download-location="footer cta">
+          <strong class="download-title">
+            
+              
+                
+                  <span>Firefox</span> Developer Edition
+                
+              
+            
+          </strong>
+        </a>
+      </li>
+    
+      <li class="os_win64-msi">
+        <a class="download-link button mzp-t-xl mzp-c-button mzp-t-product" id="footer-download-win64-msi" href="https://download.mozilla.org/?product=firefox-devedition-msi-latest-ssl&amp;os=win64&amp;lang=pl&amp;attribution_code=c291cmNlPXd3dy5nb29nbGUuY29tJm1lZGl1bT1yZWZlcnJhbCZjYW1wYWlnbj0obm90IHNldCkmY29udGVudD0obm90IHNldCkmZXhwZXJpbWVudD0obm90IHNldCkmdmFyaWF0aW9uPShub3Qgc2V0KSZ1YT1jaHJvbWU.&amp;attribution_sig=774d9972789664be6672b065e7f33820ea1cb1e7bafb5ea8c6b2a4f4bc207c70" data-link-type="download" data-display-name="Windows 64-bit MSI" data-download-version="win64-msi" data-download-os="Desktop" data-download-location="footer cta">
+          <strong class="download-title">
+            
+              
+                
+                  <span>Firefox</span> Developer Edition
+                
+              
+            
+          </strong>
+        </a>
+      </li>
+    
+      <li class="os_win64-aarch64">
+        <a class="download-link button mzp-t-xl mzp-c-button mzp-t-product" id="footer-download-win64-aarch64" href="https://download.mozilla.org/?product=firefox-devedition-latest-ssl&amp;os=win64-aarch64&amp;lang=pl&amp;attribution_code=c291cmNlPXd3dy5nb29nbGUuY29tJm1lZGl1bT1yZWZlcnJhbCZjYW1wYWlnbj0obm90IHNldCkmY29udGVudD0obm90IHNldCkmZXhwZXJpbWVudD0obm90IHNldCkmdmFyaWF0aW9uPShub3Qgc2V0KSZ1YT1jaHJvbWU.&amp;attribution_sig=774d9972789664be6672b065e7f33820ea1cb1e7bafb5ea8c6b2a4f4bc207c70" data-link-type="download" data-display-name="Windows ARM64/AArch64" data-download-version="win64-aarch64" data-download-os="Desktop" data-download-location="footer cta">
+          <strong class="download-title">
+            
+              
+                
+                  <span>Firefox</span> Developer Edition
+                
+              
+            
+          </strong>
+        </a>
+      </li>
+    
+      <li class="os_win">
+        <a class="download-link button mzp-t-xl mzp-c-button mzp-t-product" id="footer-download-win" href="https://download.mozilla.org/?product=firefox-devedition-stub&amp;os=win&amp;lang=pl&amp;attribution_code=c291cmNlPXd3dy5nb29nbGUuY29tJm1lZGl1bT1yZWZlcnJhbCZjYW1wYWlnbj0obm90IHNldCkmY29udGVudD0obm90IHNldCkmZXhwZXJpbWVudD0obm90IHNldCkmdmFyaWF0aW9uPShub3Qgc2V0KSZ1YT1jaHJvbWU.&amp;attribution_sig=774d9972789664be6672b065e7f33820ea1cb1e7bafb5ea8c6b2a4f4bc207c70" data-link-type="download" data-display-name="Windows 32-bit" data-download-version="win" data-download-os="Desktop" data-download-location="footer cta">
+          <strong class="download-title">
+            
+              
+                
+                  <span>Firefox</span> Developer Edition
+                
+              
+            
+          </strong>
+        </a>
+      </li>
+    
+      <li class="os_win-msi">
+        <a class="download-link button mzp-t-xl mzp-c-button mzp-t-product" id="footer-download-win-msi" href="https://download.mozilla.org/?product=firefox-devedition-msi-latest-ssl&amp;os=win&amp;lang=pl&amp;attribution_code=c291cmNlPXd3dy5nb29nbGUuY29tJm1lZGl1bT1yZWZlcnJhbCZjYW1wYWlnbj0obm90IHNldCkmY29udGVudD0obm90IHNldCkmZXhwZXJpbWVudD0obm90IHNldCkmdmFyaWF0aW9uPShub3Qgc2V0KSZ1YT1jaHJvbWU.&amp;attribution_sig=774d9972789664be6672b065e7f33820ea1cb1e7bafb5ea8c6b2a4f4bc207c70" data-link-type="download" data-display-name="Windows 32-bit MSI" data-download-version="win-msi" data-download-os="Desktop" data-download-location="footer cta">
+          <strong class="download-title">
+            
+              
+                
+                  <span>Firefox</span> Developer Edition
+                
+              
+            
+          </strong>
+        </a>
+      </li>
+    
+      <li class="os_osx">
+        <a class="download-link button mzp-t-xl mzp-c-button mzp-t-product" id="footer-download-osx" href="https://download.mozilla.org/?product=firefox-devedition-latest-ssl&amp;os=osx&amp;lang=pl" data-link-type="download" data-display-name="macOS" data-download-version="osx" data-download-os="Desktop" data-download-location="footer cta">
+          <strong class="download-title">
+            
+              
+                
+                  <span>Firefox</span> Developer Edition
+                
+              
+            
+          </strong>
+        </a>
+      </li>
+    
+      <li class="os_linux64">
+        <a class="download-link button mzp-t-xl mzp-c-button mzp-t-product" id="footer-download-linux64" href="https://download.mozilla.org/?product=firefox-devedition-latest-ssl&amp;os=linux64&amp;lang=pl" data-link-type="download" data-display-name="Linux 64-bit" data-download-version="linux64" data-download-os="Desktop" data-download-location="footer cta">
+          <strong class="download-title">
+            
+              
+                
+                  <span>Firefox</span> Developer Edition
+                
+              
+            
+          </strong>
+        </a>
+      </li>
+    
+      <li class="os_linux">
+        <a class="download-link button mzp-t-xl mzp-c-button mzp-t-product" id="footer-download-linux" href="https://download.mozilla.org/?product=firefox-devedition-latest-ssl&amp;os=linux&amp;lang=pl" data-link-type="download" data-display-name="Linux 32-bit" data-download-version="linux" data-download-os="Desktop" data-download-location="footer cta">
+          <strong class="download-title">
+            
+              
+                
+                  <span>Firefox</span> Developer Edition
+                
+              
+            
+          </strong>
+        </a>
+      </li>
+    
+  </ul>
+  <small class="fx-privacy-link mzp-c-button-download-privacy-link">
+    <a href="https://www.mozilla.org/pl/privacy/firefox/">
+      Zasady ochrony prywatności Firefoksa
+    </a>
+  </small>
+</div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </section>
+  <section class="t-newsletter">
+    <div class="mzp-l-content">
+      
+        
+
+
+
+
+  <form id="newsletter-form" class="mzp-c-newsletter-form" action="https://www.mozilla.org/pl/newsletter/" method="post">
+    <input type="hidden" name="newsletters" value="mozilla-and-you" id="id_newsletters">
+    <input type="hidden" name="source_url" value="https://www.mozilla.org/pl/firefox/developer/">
+
+    
+    <header class="mzp-c-newsletter-header">
+      <h3 class="mzp-c-newsletter-title">Otrzymuj wiadomości o&nbsp;Firefoksie</h3>
+      
+      
+    </header>
+    
+
+    <fieldset class="mzp-c-newsletter-content">
+      
+
+      <label for="id_email">
+      
+        Adres e-mail
+      
+      </label>
+      
+        
+      
+      <input type="email" name="email" required="" placeholder="e-mail@example.com" class="mzp-js-email-field" id="id_email">
+
+      <div id="newsletter-details" class="mzp-c-newsletter-details">
+        
+          <p><select name="country" required="required" aria-required="true" id="id_country">
+  <option value="" selected="">Wybierz państwo lub region</option>
+
+  <option value="af">Afganistan</option>
+
+  <option value="qz">Akrotiri</option>
+
+  <option value="al">Albania</option>
+
+  <option value="dz">Algieria</option>
+
+  <option value="ad">Andora</option>
+
+  <option value="ao">Angola</option>
+
+  <option value="ai">Anguilla</option>
+
+  <option value="aq">Antarktyda</option>
+
+  <option value="ag">Antigua i&nbsp;Barbuda</option>
+
+  <option value="sa">Arabia Saudyjska</option>
+
+  <option value="ar">Argentyna</option>
+
+  <option value="am">Armenia</option>
+
+  <option value="aw">Aruba</option>
+
+  <option value="xu">Atol Johnston</option>
+
+  <option value="xl">Atol Palmyra</option>
+
+  <option value="au">Australia</option>
+
+  <option value="at">Austria</option>
+
+  <option value="az">Azerbejdżan</option>
+
+  <option value="bs">Bahamy</option>
+
+  <option value="bh">Bahrajn</option>
+
+  <option value="bd">Bangladesz</option>
+
+  <option value="bb">Barbados</option>
+
+  <option value="qs">Bassas da India</option>
+
+  <option value="be">Belgia</option>
+
+  <option value="bz">Belize</option>
+
+  <option value="bj">Benin</option>
+
+  <option value="bm">Bermudy</option>
+
+  <option value="bt">Bhutan</option>
+
+  <option value="by">Białoruś</option>
+
+  <option value="mm">Birma</option>
+
+  <option value="bo">Boliwia</option>
+
+  <option value="bq">Bonaire, Sint Eustatius i&nbsp;Saba</option>
+
+  <option value="bw">Botswana</option>
+
+  <option value="ba">Bośnia i&nbsp;Hercegowina</option>
+
+  <option value="br">Brazylia</option>
+
+  <option value="bn">Brunei</option>
+
+  <option value="io">Brytyjskie Terytorium Oceanu Indyjskiego</option>
+
+  <option value="vg">Brytyjskie Wyspy Dziewicze</option>
+
+  <option value="bf">Burkina Faso</option>
+
+  <option value="bi">Burundi</option>
+
+  <option value="bg">Bułgaria</option>
+
+  <option value="cl">Chile</option>
+
+  <option value="cn">Chiny</option>
+
+  <option value="hr">Chorwacja</option>
+
+  <option value="cw">Curaçao</option>
+
+  <option value="cy">Cypr</option>
+
+  <option value="td">Czad</option>
+
+  <option value="me">Czarnogóra</option>
+
+  <option value="cz">Czechy</option>
+
+  <option value="dk">Dania</option>
+
+  <option value="xd">Dhekelia</option>
+
+  <option value="dm">Dominika</option>
+
+  <option value="do">Dominikana</option>
+
+  <option value="dj">Dżibuti</option>
+
+  <option value="eg">Egipt</option>
+
+  <option value="ec">Ekwador</option>
+
+  <option value="er">Erytrea</option>
+
+  <option value="ee">Estonia</option>
+
+  <option value="et">Etiopia</option>
+
+  <option value="fk">Falklandy (Malwiny)</option>
+
+  <option value="fj">Fidżi</option>
+
+  <option value="ph">Filipiny</option>
+
+  <option value="fi">Finlandia</option>
+
+  <option value="fr">Francja</option>
+
+  <option value="tf">Francuskie Terytoria Południowe i&nbsp;Antarktyczne</option>
+
+  <option value="ga">Gabon</option>
+
+  <option value="gm">Gambia</option>
+
+  <option value="gs">Georgia Południowa i&nbsp;Sandwich Południowy</option>
+
+  <option value="gh">Ghana</option>
+
+  <option value="gi">Gibraltar</option>
+
+  <option value="gr">Grecja</option>
+
+  <option value="gd">Grenada</option>
+
+  <option value="gl">Grenlandia</option>
+
+  <option value="ge">Gruzja</option>
+
+  <option value="gu">Guam</option>
+
+  <option value="gg">Guernsey</option>
+
+  <option value="gy">Gujana</option>
+
+  <option value="gf">Gujana Francuska</option>
+
+  <option value="gp">Gwadelupa</option>
+
+  <option value="gt">Gwatemala</option>
+
+  <option value="gn">Gwinea</option>
+
+  <option value="gq">Gwinea Równikowa</option>
+
+  <option value="gw">Gwinea-Bissau</option>
+
+  <option value="ht">Haiti</option>
+
+  <option value="es">Hiszpania</option>
+
+  <option value="nl">Holandia</option>
+
+  <option value="hn">Honduras</option>
+
+  <option value="hk">Hongkong</option>
+
+  <option value="in">Indie</option>
+
+  <option value="id">Indonezja</option>
+
+  <option value="iq">Irak</option>
+
+  <option value="ir">Iran</option>
+
+  <option value="ie">Irlandia</option>
+
+  <option value="is">Islandia</option>
+
+  <option value="il">Izrael</option>
+
+  <option value="jm">Jamajka</option>
+
+  <option value="jp">Japonia</option>
+
+  <option value="ye">Jemen</option>
+
+  <option value="je">Jersey</option>
+
+  <option value="jo">Jordania</option>
+
+  <option value="ky">Kajmany</option>
+
+  <option value="kh">Kambodża</option>
+
+  <option value="cm">Kamerun</option>
+
+  <option value="ca">Kanada</option>
+
+  <option value="qa">Katar</option>
+
+  <option value="kz">Kazachstan</option>
+
+  <option value="ke">Kenia</option>
+
+  <option value="kg">Kirgistan</option>
+
+  <option value="ki">Kiribati</option>
+
+  <option value="co">Kolumbia</option>
+
+  <option value="km">Komory</option>
+
+  <option value="cg">Kongo (Brazzaville)</option>
+
+  <option value="cd">Kongo (Kinszasa)</option>
+
+  <option value="kr">Korea Południowa</option>
+
+  <option value="kp">Korea Północna</option>
+
+  <option value="xk">Kosowo</option>
+
+  <option value="cr">Kostaryka</option>
+
+  <option value="cu">Kuba</option>
+
+  <option value="kw">Kuwejt</option>
+
+  <option value="la">Laos</option>
+
+  <option value="ls">Lesotho</option>
+
+  <option value="lb">Liban</option>
+
+  <option value="lr">Liberia</option>
+
+  <option value="ly">Libia</option>
+
+  <option value="li">Liechtenstein</option>
+
+  <option value="lt">Litwa</option>
+
+  <option value="lu">Luksemburg</option>
+
+  <option value="mk">Macedonia</option>
+
+  <option value="mg">Madagaskar</option>
+
+  <option value="yt">Majotta</option>
+
+  <option value="mo">Makau</option>
+
+  <option value="mw">Malawi</option>
+
+  <option value="mv">Malediwy</option>
+
+  <option value="my">Malezja</option>
+
+  <option value="ml">Mali</option>
+
+  <option value="mt">Malta</option>
+
+  <option value="mp">Mariany Północne</option>
+
+  <option value="ma">Maroko</option>
+
+  <option value="mq">Martynika</option>
+
+  <option value="mr">Mauretania</option>
+
+  <option value="mu">Mauritius</option>
+
+  <option value="mx">Meksyk</option>
+
+  <option value="fm">Mikronezja, Sfederowane Stany Mikronezji</option>
+
+  <option value="mc">Monako</option>
+
+  <option value="mn">Mongolia</option>
+
+  <option value="ms">Montserrat</option>
+
+  <option value="mz">Mozambik</option>
+
+  <option value="md">Mołdawia</option>
+
+  <option value="na">Namibia</option>
+
+  <option value="nr">Nauru</option>
+
+  <option value="np">Nepal</option>
+
+  <option value="de">Niemcy</option>
+
+  <option value="ne">Niger</option>
+
+  <option value="ng">Nigeria</option>
+
+  <option value="ni">Nikaragua</option>
+
+  <option value="nu">Niue</option>
+
+  <option value="no">Norwegia</option>
+
+  <option value="nc">Nowa Kaledonia</option>
+
+  <option value="nz">Nowa Zelandia</option>
+
+  <option value="om">Oman</option>
+
+  <option value="pk">Pakistan</option>
+
+  <option value="pw">Palau</option>
+
+  <option value="pa">Panama</option>
+
+  <option value="pg">Papua-Nowa Gwinea</option>
+
+  <option value="py">Paragwaj</option>
+
+  <option value="pe">Peru</option>
+
+  <option value="pf">Polinezja Francuska</option>
+
+  <option value="pl">Polska</option>
+
+  <option value="pr">Portoryko</option>
+
+  <option value="pt">Portugalia</option>
+
+  <option value="xm">Rafa Kingman</option>
+
+  <option value="za">Republika Południowej Afryki</option>
+
+  <option value="cf">Republika Środkowoafrykańska</option>
+
+  <option value="re">Reunion</option>
+
+  <option value="ru">Rosja</option>
+
+  <option value="ro">Rumunia</option>
+
+  <option value="rw">Rwanda</option>
+
+  <option value="eh">Sahara Zachodnia</option>
+
+  <option value="kn">Saint Kitts i&nbsp;Nevis</option>
+
+  <option value="lc">Saint Lucia</option>
+
+  <option value="pm">Saint Pierre i&nbsp;Miquelon</option>
+
+  <option value="vc">Saint Vincent i&nbsp;Grenadyny</option>
+
+  <option value="bl">Saint-Barthélemy</option>
+
+  <option value="mf">Saint-Martin</option>
+
+  <option value="sv">Salwador</option>
+
+  <option value="ws">Samoa</option>
+
+  <option value="as">Samoa Amerykańskie</option>
+
+  <option value="sm">San Marino</option>
+
+  <option value="sn">Senegal</option>
+
+  <option value="rs">Serbia</option>
+
+  <option value="sc">Seszele</option>
+
+  <option value="sl">Sierra Leone</option>
+
+  <option value="sg">Singapur</option>
+
+  <option value="sx">Sint Maarten</option>
+
+  <option value="so">Somalia</option>
+
+  <option value="lk">Sri Lanka</option>
+
+  <option value="us">Stany Zjednoczone</option>
+
+  <option value="xg">Strefa Gazy</option>
+
+  <option value="sz">Suazi</option>
+
+  <option value="sd">Sudan</option>
+
+  <option value="ss">Sudan Południowy</option>
+
+  <option value="sr">Surinam</option>
+
+  <option value="xr">Svalbard</option>
+
+  <option value="sy">Syria</option>
+
+  <option value="ch">Szwajcaria</option>
+
+  <option value="se">Szwecja</option>
+
+  <option value="sk">Słowacja</option>
+
+  <option value="si">Słowenia</option>
+
+  <option value="tj">Tadżykistan</option>
+
+  <option value="th">Tajlandia</option>
+
+  <option value="tw">Tajwan</option>
+
+  <option value="tz">Tanzania</option>
+
+  <option value="tl">Timor Wschodni</option>
+
+  <option value="tg">Togo</option>
+
+  <option value="tk">Tokelau</option>
+
+  <option value="to">Tonga</option>
+
+  <option value="tt">Trynidad i&nbsp;Tobago</option>
+
+  <option value="tn">Tunezja</option>
+
+  <option value="tr">Turcja</option>
+
+  <option value="tm">Turkmenistan</option>
+
+  <option value="tc">Turks i&nbsp;Caicos</option>
+
+  <option value="tv">Tuvalu</option>
+
+  <option value="ug">Uganda</option>
+
+  <option value="ua">Ukraina</option>
+
+  <option value="uy">Urugwaj</option>
+
+  <option value="uz">Uzbekistan</option>
+
+  <option value="vu">Vanuatu</option>
+
+  <option value="wf">Wallis i&nbsp;Futuna</option>
+
+  <option value="va">Watykan</option>
+
+  <option value="ve">Wenezuela</option>
+
+  <option value="gb">Wielka Brytania</option>
+
+  <option value="vn">Wietnam</option>
+
+  <option value="ci">Wybrzeże Kości Słoniowej</option>
+
+  <option value="xb">Wyspa Baker</option>
+
+  <option value="bv">Wyspa Bouveta</option>
+
+  <option value="cx">Wyspa Bożego Narodzenia</option>
+
+  <option value="cp">Wyspa Clippertona</option>
+
+  <option value="dg">Wyspa Diego Garcia</option>
+
+  <option value="xe">Wyspa Europa</option>
+
+  <option value="xh">Wyspa Howland</option>
+
+  <option value="xj">Wyspa Jan Mayen</option>
+
+  <option value="xq">Wyspa Jarvis</option>
+
+  <option value="qu">Wyspa Juan de Nova</option>
+
+  <option value="im">Wyspa Man</option>
+
+  <option value="xv">Wyspa Navassa</option>
+
+  <option value="nf">Wyspa Norfolk</option>
+
+  <option value="xt">Wyspa Tromelin</option>
+
+  <option value="qw">Wyspa Wake</option>
+
+  <option value="sh">Wyspa Świętej Heleny, Wyspa Wniebowstąpienia i&nbsp;Tristan da Cunha</option>
+
+  <option value="xa">Wyspy Ashmore i&nbsp;Cartiera</option>
+
+  <option value="ck">Wyspy Cooka</option>
+
+  <option value="vi">Wyspy Dziewicze Stanów Zjednoczonych</option>
+
+  <option value="qx">Wyspy Glorieuses</option>
+
+  <option value="hm">Wyspy Heard i&nbsp;McDonalda</option>
+
+  <option value="cc">Wyspy Kokosowe</option>
+
+  <option value="mh">Wyspy Marshalla</option>
+
+  <option value="qm">Wyspy Midway</option>
+
+  <option value="xc">Wyspy Morza Koralowego</option>
+
+  <option value="fo">Wyspy Owcze</option>
+
+  <option value="xp">Wyspy Paracelskie</option>
+
+  <option value="pn">Wyspy Pitcairn</option>
+
+  <option value="sb">Wyspy Salomona</option>
+
+  <option value="xs">Wyspy Spratly</option>
+
+  <option value="cv">Wyspy Zielonego Przylądka</option>
+
+  <option value="st">Wyspy Świętego Tomasza i&nbsp;Książęca</option>
+
+  <option value="hu">Węgry</option>
+
+  <option value="it">Włochy</option>
+
+  <option value="xw">Zachodni Brzeg</option>
+
+  <option value="zm">Zambia</option>
+
+  <option value="zw">Zimbabwe</option>
+
+  <option value="ae">Zjednoczone Emiraty Arabskie</option>
+
+  <option value="lv">Łotwa</option>
+
+</select></p>
+        
+
+        
+          <p><select name="lang" required="required" aria-required="true" id="id_lang">
+  <option value="id">Bahasa Indonesia</option>
+
+  <option value="de">Deutsch</option>
+
+  <option value="en">English</option>
+
+  <option value="es">Español</option>
+
+  <option value="fr">Français</option>
+
+  <option value="pl" selected="">Polski</option>
+
+  <option value="pt">Português</option>
+
+  <option value="ru">Русский</option>
+
+  <option value="zh-TW">正體中文</option>
+
+</select></p>
+        
+
+        <fieldset class="mzp-u-inline">
+          <legend>Format</legend>
+          <p>
+            <label for="format-html" class="mzp-u-inline">
+              <input type="radio" id="format-html" name="fmt" value="H" checked=""> HTML
+            </label>
+            <label for="format-text" class="mzp-u-inline">
+              <input type="radio" id="format-text" name="fmt" value="T"> Tekst
+            </label>
+          </p>
+        </fieldset>
+
+        <p>
+          <label for="privacy" class="mzp-u-inline">
+            <input type="checkbox" id="privacy" name="privacy" required="" aria-required="true"> Pozwalam Mozilli wykorzystywać te&nbsp;informacje w&nbsp;sposób opisany w&nbsp;<a href="https://www.mozilla.org/pl/privacy/websites/">zasadach ochrony prywatności</a>
+          </label>
+        </p>
+      </div>
+
+      <p class="mzp-c-form-submit">
+        <button type="submit" id="newsletter-submit" class="mzp-c-button mzp-c-button mzp-t-product mzp-t-lg" data-cta-type="Newsletter-mozilla-and-you" data-cta-text="Newsletter Sign Up">
+          
+            Zapisz się
+          
+        </button>
+
+        
+            <span class="mzp-c-fieldnote">
+              
+              
+                Przesyłane będą wyłącznie informacje związane z&nbsp;Firefoksem.
+              
+            </span>
+        
+      </p>
+    </fieldset>
+  </form>
+
+  <div id="newsletter-thanks" class="mzp-c-newsletter-thanks">
+    
+      
+  <h3>Dziękujemy!</h3>
+  <p>Jeśli jeszcze nigdy nie&nbsp;potwierdzono subskrypcji biuletynu Mozilli, to możesz musieć to zrobić. Sprawdź, czy w&nbsp;skrzynce pocztowej lub spamie jest wiadomość od nas.</p>
+
+    
+  </div>
+
+
+      
+    </div>
+  </section>
+</main>
+
+
+      
+  <footer class="mzp-c-footer mzp-t-firefox" id="colophon">
+  <div class="mzp-l-content">
+    <nav class="mzp-c-footer-primary">
+      <div class="mzp-c-footer-sections">
+        <section class="mzp-c-footer-section">
+          <h5 class="mzp-c-footer-heading">
+            Firefox
+          </h5>
+          <ul class="mzp-c-footer-list">
+            <li><a href="https://support.mozilla.org/?utm_source=www.mozilla.org&amp;utm_medium=referral&amp;utm_campaign=footer&amp;utm_content=support" data-link-type="footer" data-link-name="Support">Wsparcie</a></li>
+            <li><a href="https://www.mozilla.org/pl/firefox/privacy/" data-link-type="footer" data-link-name="Privacy">Prywatność</a></li>
+            <li><a href="https://blog.mozilla.org/press-pl/" data-link-type="footer" data-link-name="Press">Dla prasy</a>
+            </li><li><a href="https://mozilla.design/?utm_source=www.mozilla.org&amp;utm_medium=referral&amp;utm_campaign=footer&amp;utm_content=design" data-link-type="footer" data-link-name="Brand Standards">Standardy marki</a>
+          </li></ul>
+        </section>
+        <section class="mzp-c-footer-section">
+          <h5 class="mzp-c-footer-heading">
+            Przeglądarki
+          </h5>
+          <ul class="mzp-c-footer-list">
+            <li><a href="https://www.mozilla.org/pl/firefox/new/" data-link-type="footer" data-link-name="Desktop">Na&nbsp;komputery</a></li>
+            <li><a href="https://www.mozilla.org/pl/firefox/mobile/" data-link-type="footer" data-link-name="Mobile">Na telefon</a></li>
+            <li><a href="https://mixedreality.mozilla.org/?utm_source=www.mozilla.org&amp;utm_medium=referral&amp;utm_campaign=footer&amp;utm_content=reality" data-link-type="footer" data-link-name="Reality">Reality</a></li>
+            <li><a href="https://www.mozilla.org/pl/firefox/enterprise/" data-link-type="footer" data-link-name="Enterprise">Enterprise</a></li>
+          </ul>
+        </section>
+        <section class="mzp-c-footer-section">
+          <h5 class="mzp-c-footer-heading">
+            Produkty
+          </h5>
+          <ul class="mzp-c-footer-list">
+            <li><a href="https://www.mozilla.org/pl/firefox/lockwise/" data-link-type="footer" data-link-name="Lockwise">Lockwise</a></li>
+            <li><a href="https://monitor.firefox.com/?utm_source=www.mozilla.org&amp;utm_medium=referral&amp;utm_campaign=footer&amp;utm_content=monitor" data-link-type="footer" data-link-name="Monitor">Monitor</a></li>
+            <li><a href="https://www.mozilla.org/pl/firefox/browsers/" data-link-type="footer" data-link-name="Browsers">Przeglądarki</a></li>
+            <li><a href="https://getpocket.com/?utm_source=www.mozilla.org&amp;utm_medium=referral&amp;utm_campaign=footer&amp;utm_content=pocket" data-link-type="footer" data-link-name="Pocket">Pocket</a></li>
+          </ul>
+        </section>
+        <section class="mzp-c-footer-section">
+          <h5 class="mzp-c-footer-heading">
+            Dołącz
+          </h5>
+          <ul class="mzp-c-footer-list">
+            <li class="fxa-signin">
+              <a href="https://accounts.firefox.com/signup?entrypoint=mozilla.org-firefoxfooter&amp;form_type=button&amp;utm_source=mozilla.org-firefoxfooter&amp;utm_medium=referral&amp;utm_campaign=footer&amp;utm_content=join-sign-up" data-action="https://accounts.firefox.com/" class="js-fxa-cta-link" data-cta-text="Sign Up" data-cta-type="fxa-sync" data-cta-position="footer" data-mozillaonline-link="https://accounts.firefox.com.cn/signup?entrypoint=mozilla.org-firefoxfooter&amp;form_type=button&amp;utm_source=mozilla.org-firefoxfooter&amp;utm_medium=referral&amp;utm_campaign=footer&amp;utm_content=join-sign-up" data-mozillaonline-action="https://accounts.firefox.com.cn/">Utwórz konto</a>
+            </li>
+            <li class="fxa-signin">
+              <a href="https://accounts.firefox.com/signin?entrypoint=mozilla.org-firefoxfooter&amp;form_type=button&amp;utm_source=mozilla.org-firefoxfooter&amp;utm_medium=referral&amp;utm_campaign=footer&amp;utm_content=join-sign-in" data-action="https://accounts.firefox.com/" class="js-fxa-cta-link" data-cta-text="Sign In" data-cta-type="fxa-sync" data-cta-position="footer" data-mozillaonline-link="https://accounts.firefox.com.cn/signin?entrypoint=mozilla.org-firefoxfooter&amp;form_type=button&amp;utm_source=mozilla.org-firefoxfooter&amp;utm_medium=referral&amp;utm_campaign=footer&amp;utm_content=join-sign-in" data-mozillaonline-action="https://accounts.firefox.com.cn/">Zaloguj się</a>
+            </li>
+            <li><a href="https://www.mozilla.org/pl/firefox/accounts/" data-link-type="footer" data-link-name="Benefits">Korzyści</a></li>
+          </ul>
+        </section>
+        <section class="mzp-c-footer-section">
+          <h5 class="mzp-c-footer-heading">
+            Deweloperzy
+          </h5>
+          <ul class="mzp-c-footer-list">
+            <li><a href="https://www.mozilla.org/pl/firefox/developer/" data-link-type="footer" data-link-name="Developer Edition">Developer Edition</a></li>
+            <li><a href="https://www.mozilla.org/pl/firefox/channel/desktop/#beta" data-link-type="footer" data-link-name="Beta">Beta</a></li>
+            <li><a href="https://www.mozilla.org/pl/firefox/channel/android/#beta" data-link-type="footer" data-link-name="Beta for Android">Beta na Androida</a></li>
+            <li><a href="https://www.mozilla.org/pl/firefox/channel/desktop/#nightly" data-link-type="footer" data-link-name="Nightly">Nightly</a></li>
+            <li><a href="https://www.mozilla.org/pl/firefox/channel/android/#nightly" data-link-type="footer" data-link-name="Nightly for Android">Nightly na Androida</a></li>
+          </ul>
+        </section>
+        <section class="mzp-c-footer-section mzp-c-has-lang">
+          <div class="mzp-c-footer-language">
+           
+  <form id="lang_form" class="mzp-c-language-switcher mzp-t-dark" method="get" action="https://www.mozilla.org/pl/firefox/developer/#">
+    <a class="mzp-c-language-switcher-link" href="https://www.mozilla.org/locales/">Język</a>
+    <label for="page-language-select">Język</label>
+    <select id="page-language-select" class="mzp-js-language-switcher-select" name="lang" dir="ltr" data-previous-language="pl">
+      
+        <option lang="an" value="an">aragonés</option>
+      
+        <option lang="ar" value="ar">عربي</option>
+      
+        <option lang="ast" value="ast">Asturianu</option>
+      
+        <option lang="az" value="az">Azərbaycanca</option>
+      
+        <option lang="be" value="be">Беларуская</option>
+      
+        <option lang="bg" value="bg">Български</option>
+      
+        <option lang="bs" value="bs">Bosanski</option>
+      
+        <option lang="cak" value="cak">Maya Kaqchikel</option>
+      
+        <option lang="cs" value="cs">Čeština</option>
+      
+        <option lang="cy" value="cy">Cymraeg</option>
+      
+        <option lang="da" value="da">Dansk</option>
+      
+        <option lang="de" value="de">Deutsch</option>
+      
+        <option lang="dsb" value="dsb">Dolnoserbšćina</option>
+      
+        <option lang="el" value="el">Ελληνικά</option>
+      
+        <option lang="en-CA" value="en-CA">English (Canadian)</option>
+      
+        <option lang="en-GB" value="en-GB">English (British)</option>
+      
+        <option lang="en-US" value="en-US">English</option>
+      
+        <option lang="eo" value="eo">Esperanto</option>
+      
+        <option lang="es-AR" value="es-AR">Español (de Argentina)</option>
+      
+        <option lang="es-CL" value="es-CL">Español (de Chile)</option>
+      
+        <option lang="es-ES" value="es-ES">Español (de España)</option>
+      
+        <option lang="es-MX" value="es-MX">Español (de México)</option>
+      
+        <option lang="fa" value="fa">فارسی</option>
+      
+        <option lang="fr" value="fr">Français</option>
+      
+        <option lang="fy-NL" value="fy-NL">Frysk</option>
+      
+        <option lang="gn" value="gn">Avañe'ẽ</option>
+      
+        <option lang="gu-IN" value="gu-IN">ગુજરાતી (ભારત)</option>
+      
+        <option lang="hi-IN" value="hi-IN">हिन्दी (भारत)</option>
+      
+        <option lang="hr" value="hr">Hrvatski</option>
+      
+        <option lang="hsb" value="hsb">Hornjoserbsce</option>
+      
+        <option lang="hu" value="hu">magyar</option>
+      
+        <option lang="hy-AM" value="hy-AM">Հայերեն</option>
+      
+        <option lang="ia" value="ia">Interlingua</option>
+      
+        <option lang="id" value="id">Bahasa Indonesia</option>
+      
+        <option lang="it" value="it">Italiano</option>
+      
+        <option lang="ja" value="ja">日本語</option>
+      
+        <option lang="ka" value="ka">ქართული</option>
+      
+        <option lang="kab" value="kab">Taqbaylit</option>
+      
+        <option lang="ko" value="ko">한국어</option>
+      
+        <option lang="lt" value="lt">Lietuvių</option>
+      
+        <option lang="ml" value="ml">മലയാളം</option>
+      
+        <option lang="mr" value="mr">मराठी</option>
+      
+        <option lang="ms" value="ms">Melayu</option>
+      
+        <option lang="nb-NO" value="nb-NO">Norsk bokmål</option>
+      
+        <option lang="nl" value="nl">Nederlands</option>
+      
+        <option lang="nn-NO" value="nn-NO">Norsk nynorsk</option>
+      
+        <option lang="pa-IN" value="pa-IN">ਪੰਜਾਬੀ (ਭਾਰਤ)</option>
+      
+        <option lang="pl" value="pl" selected="">Polski</option>
+      
+        <option lang="pt-BR" value="pt-BR">Português (do&nbsp;Brasil)</option>
+      
+        <option lang="pt-PT" value="pt-PT">Português (Europeu)</option>
+      
+        <option lang="rm" value="rm">rumantsch</option>
+      
+        <option lang="ro" value="ro">Română</option>
+      
+        <option lang="ru" value="ru">Русский</option>
+      
+        <option lang="sk" value="sk">slovenčina</option>
+      
+        <option lang="sl" value="sl">Slovenščina</option>
+      
+        <option lang="sq" value="sq">Shqip</option>
+      
+        <option lang="sr" value="sr">Српски</option>
+      
+        <option lang="sv-SE" value="sv-SE">Svenska</option>
+      
+        <option lang="ta" value="ta">தமிழ்</option>
+      
+        <option lang="th" value="th">ไทย</option>
+      
+        <option lang="tr" value="tr">Türkçe</option>
+      
+        <option lang="uk" value="uk">Українська</option>
+      
+        <option lang="vi" value="vi">Tiếng Việt</option>
+      
+        <option lang="zh-CN" value="zh-CN">中文 (简体)</option>
+      
+        <option lang="zh-TW" value="zh-TW">正體中文 (繁體)</option>
+      
+    </select>
+    <button type="submit">Przejdź</button>
+  </form>
+
+          </div>
+          <ul class="mzp-c-footer-links-social">
+            <li><a class="twitter" href="https://twitter.com/firefox" data-link-type="footer" data-link-name="Twitter (@firefox)">Twitter<span> (@firefox)</span></a></li>
+            <li><a class="instagram" href="https://www.instagram.com/firefox/" data-link-type="footer" data-link-name="Instagram (@firefox)">Instagram<span> (@firefox)</span></a></li>
+            <li><a class="youtube" href="https://www.youtube.com/user/firefoxchannel" data-link-type="footer" data-link-name="YouTube (@firefoxchannel)">YouTube<span> (@firefoxchannel)</span></a></li>
+          </ul>
+        </section>
+      </div>
+    </nav>
+    <nav class="mzp-c-footer-secondary">
+      <div class="mzp-c-footer-primary-logo">
+        <a href="https://www.mozilla.org/pl/" data-link-type="footer" data-link-name="Mozilla">Mozilla</a>
+      </div>
+      <div class="mzp-c-footer-legal">
+        <div class="mzp-c-footer-license">
+          
+          
+          <p>
+          Odwiedź <a href="https://foundation.mozilla.org/" rel="external noopener" data-link-type="footer" data-link-name="Mozilla Foundation">Mozilla Foundation</a>, nadrzędną organizację <a href="https://www.mozilla.org/pl/" data-link-type="footer" data-link-name="Mozilla Corporation">Mozilla Corporation</a>.
+          </p>
+          <p>
+          Fragmenty treści tej&nbsp;witryny: ©1998–2020. Prawa autorskie należą do&nbsp;poszczególnych współtwórców witryny mozilla.org. Treść strony dostępna na&nbsp;licencji <a rel="license" href="https://www.mozilla.org/pl/foundation/licensing/website-content/">Creative&nbsp;Commons</a>.
+          </p>
+        </div>
+        <ul class="mzp-c-footer-terms">
+          <li><a href="https://www.mozilla.org/pl/" data-link-type="footer" data-link-name="mozilla.org">mozilla.org</a></li>
+          <li><a href="https://www.mozilla.org/pl/privacy/" data-link-type="footer" data-link-name="Privacy">Prywatność</a></li>
+          <li><a href="https://www.mozilla.org/pl/privacy/websites/" data-link-type="footer" data-link-name="Privacy">Zasady ochrony prywatności</a></li>
+          <li><a href="https://www.mozilla.org/pl/privacy/websites/#cookies" data-link-type="footer" data-link-name="Cookies">Ciasteczka</a></li>
+          <li><a href="https://www.mozilla.org/pl/about/legal/" data-link-type="footer" data-link-name="Legal">Podstawa prawna</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</footer>
+
+
+      
+      
+    </div>
+
+    
+    
+      
+    
+
+    
+      <!--[if !IE]><!-->
+        <script type="text/javascript" src="./Firefox Developer Edition_files/common.e281fd79ffd9.js.pobrane" charset="utf-8"></script>
+      <!--<![endif]-->
+
+      <!--[if IE]>
+        <script type="text/javascript" src="https://www.mozilla.org/media/js/BUNDLES/common-ie.a384644b289e.js" charset="utf-8"></script>
+      <![endif]-->
+    
+
+    
+    
+      
+        <script type="text/javascript" src="./Firefox Developer Edition_files/stub-attribution.d27a6ffd686b.js.pobrane" charset="utf-8"></script>
+      
+    
+
+    <!--[if !IE]><!-->
+    
+  <script type="text/javascript" src="./Firefox Developer Edition_files/firefox_developer.fe582e537992.js.pobrane" charset="utf-8"></script>
+
+
+    
+      <script type="application/ld+json">
+    
+    
+  {
+  "@context": "https://schema.org/",
+  "@type": "SoftwareApplication",
+  "@id": "https://www.mozilla.org/#firefoxdeveloper-pl",
+  "url": "https://www.mozilla.org/pl/firefox/developer/",
+  "name": "Firefox Browser Developer Edition ",
+  "image": "https://www.mozilla.org/media/protocol/img/logos/firefox/browser/developer/logo-lg-high-res.8aedc8028e4d.png",
+  "alternateName": [
+    "Firefox Developer Edition",
+    "Firefox Developer Edition Browser"
+  ],
+  "offers":
+  {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "OperatingSystem": [
+    "macOS",
+    "Windows",
+    "Linux",
+    "iOS",
+    "Android"
+  ],
+  "applicationCategory": "Browser",
+  "applicationSuite": "Firefox",
+  "author":
+  {
+    "@type": "Organization",
+    "@id": "https://www.mozilla.org/#organization-pl",
+    "name": "Mozilla Corporation"
+  },
+  "releaseNotes": "https://www.mozilla.org/pl/firefox/developer/notes/",
+  "isPartOf":
+  {
+    "@id": "https://www.mozilla.org/#firefoxbrowser-pl",
+    "url": "https://www.mozilla.org/pl/firefox/new/",
+    "name": "Firefox Browser"
+  }
+}
+
+    
+      </script>
+    
+
+    
+    <!--<![endif]-->
+
+    
+    
+    <img src="./Firefox Developer Edition_files/set_hsts.gif" class="hidden">
+  
+</body></html>
