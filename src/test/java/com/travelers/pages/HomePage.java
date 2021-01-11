@@ -38,11 +38,8 @@ public class HomePage {
     @FindBy(xpath = "//button[text()=' Search']")
     private WebElement searchButton;
 
-    @FindBy(xpath = "//table[@class= 'bgwhite table table-striped']")
-    private WebElement resultsTable;
-
-    @FindBy(xpath = "//div[@class='select2-result-label']")
-    private WebElement selectResult;
+    @FindBy(xpath = "//li[@class='select2-results-dept-1 select2-result select2-result-selectable select2-highlighted']//div[@class='select2-result-label']")
+    private WebElement selectResults;
 
     private SeleniumHelper helper; //locator
 
@@ -50,57 +47,44 @@ public class HomePage {
 
 
     public HomePage(WebDriver driver) {
-
         PageFactory.initElements(driver, this);
         this.helper = new SeleniumHelper(driver); //locator
         this.driver = driver; //element
     }
 
 
-    public void SetCityHotel(String cityName) {
+    public HomePage SetCityHotel(String cityName) {
         searchSpan.click();
         searchCityInput.sendKeys(cityName);
         //Możemy czekać na lokator lub na element
-        //By locationLabel = By.xpath("//div[@class='select2-result-label']");  // lokator
+        //By locationLabel = By.xpath("//div[@class='select2-result-label']bel']");  // lokator
         //helper.waitForElementToBeDisplayed(locationLabel);
-        helper.waitForElementToBeDisplayed(selectResult);
+        helper.waitForElementToBeDisplayed(selectResults);
         searchCityInput.sendKeys(Keys.ENTER);
+        return this;
     }
-    public void setDateRange(String checkInDate, String checkOutDate) {
+    public HomePage setDateRange(String checkInDate, String checkOutDate) {
         checkInInput.sendKeys(checkInDate);
         checkOutInput.sendKeys(checkOutDate);
         checkOutInput.click();
+        return this;
     }
-    public void openTravellersInput(){
+    public HomePage openTravellersInput(){
         travellersInput.click();
         helper.waitForElementToBeDisplayed(adultPlusBtn);
+        return this;
     }
-    public void setAdult () {
+    public HomePage setAdult () {
         adultPlusBtn.click();
+        return this;
     }
-    public void setChild() {
+    public HomePage setChild() {
         childPlusBtn.click();
+        return this;
     }
-    public void performSearchButton() {
+
+    public void /*ResultPage*/ performSearchButton() {
         searchButton.click();
-    }
-    // take a list with hotel name
-    public List<String> getHotelNames() {
-        List<String> hotelNames = new ArrayList<>();
-        helper.waitForListOfWebElements(resultsTable.findElements(By.xpath(".//h4//b")));
-        List<WebElement> hotelNameWebElements = resultsTable.findElements(By.xpath(".//h4//b"));
-        for (WebElement hotelNameElement : hotelNameWebElements) {
-            System.out.println(hotelNameElement.getText());
-            hotelNames.add(hotelNameElement.getText());
-        }
-        return hotelNames;
-    }
-    // take a list with price. You can do it like list wit hotel names or like that
-    public List<String> getHotelPrices() throws InterruptedException {
-        Thread.sleep(3000);
-        List<WebElement> hotelPrices = resultsTable.findElements(By.xpath("//div[contains(@class, 'price_tab')]//b"));
-        List<String> prices = hotelPrices.stream().map(element -> element.getText()).collect(Collectors.toList());
-        System.out.println(prices);
-        return prices;
+        //return new ResultPage(driver);
     }
 }
